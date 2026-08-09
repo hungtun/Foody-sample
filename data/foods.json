@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "name": "Pho",
+    "vietnameseName": "Phở",
+    "region": "North",
+    "province": "Hanoi",
+    "category": "Noodle",
+    "description": "Vietnam's iconic noodle soup with fragrant beef broth, rice noodles, and fresh herbs. A must-try breakfast classic in Hanoi.",
+    "ingredients": ["Rice noodles", "Beef", "Beef broth", "Onion", "Ginger", "Star anise", "Fresh herbs"],
+    "cookingMethod": "Bones and spices are simmered for hours to create a clear, aromatic broth. Rice noodles are blanched, topped with sliced beef, and finished with herbs and lime.",
+    "priceMin": 35000,
+    "priceMax": 70000,
+    "rating": 4.9,
+    "images": [
+      "assets/images/foods/pho-1.jpg",
+      "assets/images/foods/pho-2.jpg",
+      "assets/images/foods/pho-3.jpg"
+    ],
+    "spicyLevel": 0,
+    "vegetarian": false,
+    "mustTry": true,
+    "tags": ["Traditional", "Popular", "Street Food", "Breakfast"]
+  },
+  {
+    "id": 2,
+    "name": "Bun Cha",
+    "vietnameseName": "Bún Chả",
+    "region": "North",
+    "province": "Hanoi",
+    "category": "Noodle",
+    "description": "Grilled pork patties and slices served with vermicelli, fresh herbs, and a sweet-savory dipping sauce.",
+    "ingredients": ["Rice vermicelli", "Pork", "Fish sauce", "Sugar", "Garlic", "Herbs", "Pickled vegetables"],
+    "cookingMethod": "Pork is marinated and charcoal-grilled, then served in a warm dipping broth with vermicelli and herbs on the side.",
+    "priceMin": 40000,
+    "priceMax": 80000,
+    "rating": 4.8,
+    "images": [
+      "assets/images/foods/buncha-1.jpg",
+      "assets/images/foods/buncha-2.jpg"
+    ],
+    "spicyLevel": 1,
+    "vegetarian": false,
+    "mustTry": true,
+    "tags": ["Traditional", "Grilled", "Popular"]
+  },
+  {
+    "id": 3,
+    "name": "Egg Coffee",
+    "vietnameseName": "Cà Phê Trứng",
+    "region": "North",
+    "province": "Hanoi",
+    "category": "Drink",
+    "description": "A Hanoi specialty: strong coffee topped with a creamy whipped egg yolk foam that tastes like liquid tiramisu.",
+    "ingredients": ["Robusta coffee", "Egg yolk", "Condensed milk", "Sugar"],
+    "cookingMethod": "Egg yolk is whipped with condensed milk until frothy, then poured over hot or iced Vietnamese coffee.",
+    "priceMin": 25000,
+    "priceMax": 55000,
+    "rating": 4.7,
+    "images": [
+      "assets/images/foods/eggcoffee-1.jpg",
+      "assets/images/foods/eggcoffee-2.jpg"
+    ],
+    "spicyLevel": 0,
+    "vegetarian": true,
+    "mustTry": true,
+    "tags": ["Drink", "Unique", "Hanoi"]
+  },
+  {
+    "id": 4,
+    "name": "Bun Bo Hue",
+    "vietnameseName": "Bún Bò Huế",
+    "region": "Central",
+    "province": "Hue",
+    "category": "Noodle",
+    "description": "A spicy beef noodle soup from Hue with lemongrass, annatto oil, and a bold, aromatic broth.",
+    "ingredients": ["Rice noodles", "Beef", "Pork", "Lemongrass", "Chili", "Shrimp paste", "Herbs"],
+    "cookingMethod": "Beef and pork bones are simmered with lemongrass and spices. The broth is finished with annatto oil and chili before serving with thick round noodles.",
+    "priceMin": 40000,
+    "priceMax": 75000,
+    "rating": 4.8,
+    "images": [
+      "assets/images/foods/bunbohue-1.jpg",
+      "assets/images/foods/bunbohue-2.jpg"
+    ],
+    "spicyLevel": 3,
+    "vegetarian": false,
+    "mustTry": true,
+    "tags": ["Spicy", "Traditional", "Popular"]
+  },
+  {
+    "id": 5,
+    "name": "Cao Lau",
+    "vietnameseName": "Cao Lầu",
+    "region": "Central",
+    "province": "Hoi An",
+    "category": "Noodle",
+    "description": "Hoi An's signature noodle dish with thick noodles, sliced pork, greens, and crispy croutons.",
+    "ingredients": ["Cao lau noodles", "Pork", "Soy sauce", "Greens", "Crispy croutons", "Herbs"],
+    "cookingMethod": "Thick local noodles are topped with marinated pork, fresh greens, herbs, and crispy rice croutons, then lightly dressed with savory sauce.",
+    "priceMin": 35000,
+    "priceMax": 65000,
+    "rating": 4.6,
+    "images": [
+      "assets/images/foods/caolau-1.jpg",
+      "assets/images/foods/caolau-2.jpg"
+    ],
+    "spicyLevel": 1,
+    "vegetarian": false,
+    "mustTry": true,
+    "tags": ["Hoi An", "Traditional", "Local Specialty"]
+  },
+  {
+    "id": 6,
+    "name": "Com Hen",
+    "vietnameseName": "Cơm Hến",
+    "region": "Central",
+    "province": "Hue",
+    "category": "Rice",
+    "description": "A humble Hue specialty of baby clams over rice with peanuts, herbs, pork crackling, and spicy broth.",
+    "ingredients": ["Rice", "Baby clams", "Peanuts", "Pork crackling", "Herbs", "Chili", "Fish sauce"],
+    "cookingMethod": "Baby clams are cooked and tossed with aromatics, then served over rice with crunchy toppings and a side of spicy clam broth.",
+    "priceMin": 25000,
+    "priceMax": 45000,
+    "rating": 4.5,
+    "images": [
+      "assets/images/foods/comhen-1.jpg"
+    ],
+    "spicyLevel": 2,
+    "vegetarian": false,
+    "mustTry": false,
+    "tags": ["Hue", "Street Food", "Local Specialty"]
+  },
+  {
+    "id": 7,
+    "name": "Banh Mi",
+    "vietnameseName": "Bánh Mì",
+    "region": "South",
+    "province": "Ho Chi Minh City",
+    "category": "Sandwich",
+    "description": "A crispy baguette sandwich filled with pâté, meats, pickled vegetables, cilantro, and chili — Vietnam's beloved street sandwich.",
+    "ingredients": ["Baguette", "Pâté", "Cold cuts", "Pickled carrot", "Cilantro", "Chili", "Mayonnaise"],
+    "cookingMethod": "A warm crispy baguette is spread with pâté and mayo, then filled with meats, pickles, cucumber, cilantro, and chili.",
+    "priceMin": 20000,
+    "priceMax": 45000,
+    "rating": 4.9,
+    "images": [
+      "assets/images/foods/banhmi-1.jpg",
+      "assets/images/foods/banhmi-2.jpg"
+    ],
+    "spicyLevel": 1,
+    "vegetarian": false,
+    "mustTry": true,
+    "tags": ["Street Food", "Popular", "Quick Bite"]
+  },
+  {
+    "id": 8,
+    "name": "Hu Tieu",
+    "vietnameseName": "Hủ Tiếu",
+    "region": "South",
+    "province": "Ho Chi Minh City",
+    "category": "Noodle",
+    "description": "A Southern noodle soup with clear pork broth, rice noodles, shrimp, and pork — light yet deeply savory.",
+    "ingredients": ["Rice noodles", "Pork", "Shrimp", "Pork broth", "Garlic", "Herbs", "Fried shallots"],
+    "cookingMethod": "A clear pork broth is simmered and served with noodles, shrimp, sliced pork, and fresh toppings.",
+    "priceMin": 35000,
+    "priceMax": 65000,
+    "rating": 4.6,
+    "images": [
+      "assets/images/foods/hutieu-1.jpg"
+    ],
+    "spicyLevel": 0,
+    "vegetarian": false,
+    "mustTry": false,
+    "tags": ["Noodle", "Southern", "Breakfast"]
+  },
+  {
+    "id": 9,
+    "name": "Goi Cuon",
+    "vietnameseName": "Gỏi Cuốn",
+    "region": "South",
+    "province": "Ho Chi Minh City",
+    "category": "Appetizer",
+    "description": "Fresh spring rolls wrapped in rice paper with shrimp, pork, vermicelli, and herbs, dipped in peanut or fish sauce.",
+    "ingredients": ["Rice paper", "Shrimp", "Pork", "Rice vermicelli", "Lettuce", "Herbs", "Peanut sauce"],
+    "cookingMethod": "Softened rice paper is filled with vermicelli, herbs, shrimp, and pork, then rolled tightly and served with dipping sauce.",
+    "priceMin": 25000,
+    "priceMax": 50000,
+    "rating": 4.7,
+    "images": [
+      "assets/images/foods/goicuon-1.jpg",
+      "assets/images/foods/goicuon-2.jpg"
+    ],
+    "spicyLevel": 0,
+    "vegetarian": false,
+    "mustTry": true,
+    "tags": ["Fresh", "Healthy", "Popular"]
+  },
+  {
+    "id": 10,
+    "name": "Goat Meat",
+    "vietnameseName": "Thịt Dê",
+    "region": "North",
+    "province": "Ninh Binh",
+    "category": "Meat",
+    "description": "Ninh Binh specialty goat dishes — often grilled or hotpot-style — paired with local herbs and dipping sauces.",
+    "ingredients": ["Goat meat", "Lemongrass", "Garlic", "Chili", "Herbs", "Sesame salt"],
+    "cookingMethod": "Goat is marinated with aromatics and grilled or simmered in hotpot, served with fresh herbs and dipping sauces.",
+    "priceMin": 80000,
+    "priceMax": 200000,
+    "rating": 4.4,
+    "images": [
+      "assets/images/foods/goat-1.jpg"
+    ],
+    "spicyLevel": 2,
+    "vegetarian": false,
+    "mustTry": false,
+    "tags": ["Ninh Binh", "Local Specialty", "Grilled"]
+  },
+  {
+    "id": 11,
+    "name": "Seafood Hotpot",
+    "vietnameseName": "Lẩu Hải Sản",
+    "region": "North",
+    "province": "Ha Long",
+    "category": "Hotpot",
+    "description": "Fresh Ha Long Bay seafood cooked in a fragrant hotpot broth with vegetables and noodles.",
+    "ingredients": ["Squid", "Shrimp", "Fish", "Crab", "Vegetables", "Noodles", "Broth"],
+    "cookingMethod": "A savory broth is brought to a boil at the table while diners cook assorted fresh seafood and vegetables.",
+    "priceMin": 150000,
+    "priceMax": 400000,
+    "rating": 4.7,
+    "images": [
+      "assets/images/foods/seafood-1.jpg"
+    ],
+    "spicyLevel": 1,
+    "vegetarian": false,
+    "mustTry": true,
+    "tags": ["Seafood", "Ha Long", "Sharing"]
+  },
+  {
+    "id": 12,
+    "name": "Mi Quang",
+    "vietnameseName": "Mì Quảng",
+    "region": "Central",
+    "province": "Da Nang",
+    "category": "Noodle",
+    "description": "A Central Vietnamese turmeric noodle dish with a small amount of rich broth, topped with meat, peanuts, and herbs.",
+    "ingredients": ["Turmeric noodles", "Pork", "Shrimp", "Peanuts", "Rice crackers", "Herbs", "Broth"],
+    "cookingMethod": "Wide turmeric noodles are served with a shallow savory broth, protein toppings, crushed peanuts, and crispy rice crackers.",
+    "priceMin": 35000,
+    "priceMax": 60000,
+    "rating": 4.6,
+    "images": [
+      "assets/images/foods/miquang-1.jpg"
+    ],
+    "spicyLevel": 1,
+    "vegetarian": false,
+    "mustTry": true,
+    "tags": ["Da Nang", "Traditional", "Noodle"]
+  }
+]
