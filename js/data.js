@@ -2,10 +2,17 @@
  * Data loading helpers for JSON files.
  */
 
+const locale = (document.documentElement.lang || "en").toLowerCase().startsWith("vi") ? "vi" : "en";
 const DataPaths = {
-  foods: "data/foods.json",
-  regions: "data/regions.json",
-  articles: "data/articles.json",
+  foods: `data/foods_${locale}.json`,
+  regions: `data/regions_${locale}.json`,
+  articles: `data/articles_${locale}.json`,
+};
+
+const DataFallbackPaths = {
+  foods: ["data/foods_en.json", "data/foods_vi.json"],
+  regions: ["data/regions_en.json", "data/regions_vi.json"],
+  articles: ["data/articles_en.json", "data/articles_vi.json"],
 };
 
 async function fetchJSON(path) {
@@ -16,16 +23,32 @@ async function fetchJSON(path) {
   return response.json();
 }
 
+async function resolveDataPath(kind) {
+  const candidates = [DataPaths[kind], ...DataFallbackPaths[kind]];
+  for (const candidate of candidates) {
+    try {
+      const response = await fetch(candidate, { method: "HEAD" });
+      if (response.ok) return candidate;
+    } catch (error) {
+      // Ignore and continue to next fallback file.
+    }
+  }
+  return DataPaths[kind];
+}
+
 async function loadFoods() {
-  return fetchJSON(DataPaths.foods);
+  const path = await resolveDataPath("foods");
+  return fetchJSON(path);
 }
 
 async function loadRegions() {
-  return fetchJSON(DataPaths.regions);
+  const path = await resolveDataPath("regions");
+  return fetchJSON(path);
 }
 
 async function loadArticles() {
-  return fetchJSON(DataPaths.articles);
+  const path = await resolveDataPath("articles");
+  return fetchJSON(path);
 }
 
 function getQueryParam(name) {
@@ -55,8 +78,8 @@ function findRegionById(regions, id) {
   return regions.find(
     (region) =>
       region.id === key ||
-      region.shortName.toLowerCase() === key ||
-      region.name.toLowerCase().includes(key)
+      region.shortName?.toLowerCase() === key ||
+      region.name?.toLowerCase().includes(key)
   );
 }
 
@@ -74,20 +97,25 @@ function filterFoodsByKeyword(foods, keyword) {
   if (!q) return foods;
   return foods.filter(
     (food) =>
-      food.name.toLowerCase().includes(q) ||
-      food.vietnameseName.toLowerCase().includes(q) ||
-      food.province.toLowerCase().includes(q) ||
-      food.tags.some((tag) => tag.toLowerCase().includes(q))
+      (food.name || "").toLowerCase().includes(q) ||
+      (food.vietnameseName || "").toLowerCase().includes(q) ||
+      (food.province || "").toLowerCase().includes(q) ||
+      (food.tags || []).some((tag) => String(tag).toLowerCase().includes(q))
   );
 }
 
 function regionKeyFromFood(food) {
-  return String(food.region).toLowerCase();
+  const value = String(food.region || "").trim().toLowerCase();
+  if (!value) return "";
+  if (value.includes("north")) return "north";
+  if (value.includes("central")) return "central";
+  if (value.includes("south")) return "south";
+  return value.replace(/\s+/g, "-");
 }
 
 /** Placeholder image when asset is missing */
 function foodImage(food, index = 0) {
-  const src = food.images && food.images[index];
+  const src = food.images?.[index] || food.image;
   if (src) return src;
   return `https://placehold.co/600x400/1a3a2a/f5f0e8?text=${encodeURIComponent(food.name)}`;
 }

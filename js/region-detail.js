@@ -23,7 +23,7 @@ async function initRegionDetail() {
       regionKeyFromFood(f) === region.id
     ).slice(0, 6);
 
-    const ingredients = region.commonIngredients
+    const ingredients = (region.commonIngredients || region.ingredients || [])
       .map((item) => `<li>${item}</li>`)
       .join("");
 

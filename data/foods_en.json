@@ -1,0 +1,1507 @@
+[
+  {
+    "id": 1,
+    "name": "Pho",
+    "vietnameseName": "Phở",
+    "region": "Northern Vietnam",
+    "province": "Hanoi",
+    "category": "Noodles",
+    "description": "Vietnam's iconic pho, featuring a flavorful beef broth, rice noodles, and fresh herbs. A classic breakfast dish that should not be missed when visiting Hanoi.",
+    "ingredients": [
+      "Pho rice noodles",
+      "Beef",
+      "Beef broth",
+      "Onion",
+      "Ginger",
+      "Star anise",
+      "Fresh herbs"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Preparing & Roasting the Spices"
+      },
+      {
+        "type": "paragraph",
+        "text": "Clean the beef bones, blanch them briefly, then rinse again. Roast the shallots, ginger, and a piece of sugarcane until fragrant. Lightly roast the cinnamon, star anise, and black cardamom, then place everything in a spice bag."
+      },
+      {
+        "type": "subheading",
+        "text": "Simmering the Broth"
+      },
+      {
+        "type": "paragraph",
+        "text": "Place the bones in a pot of cold water and simmer over low heat for 6–8 hours without covering the pot. Add the spice bag, roasted onion, and ginger, then season with rock sugar, salt, and fish sauce to taste."
+      },
+      {
+        "type": "subheading",
+        "text": "Cooking the Beef & Finishing"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cook the beef brisket separately until just tender, then slice it thinly. Blanch the pho noodles in boiling water, place the beef on top, add scallions, and pour over the hot broth."
+      }
+    ],
+    "priceMin": 35000,
+    "priceMax": 70000,
+    "priceUnit": "bowl",
+    "images": [
+      "assets/images/foods/pho-ha-noi.webp",
+      "assets/images/foods/pho-ha-noi-2.jpg",
+      "assets/images/foods/pho-ha-noi-3.jpg"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Traditional",
+      "Popular",
+      "Street Food",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bun bo Hue",
+    "vietnameseName": "Bún bò Huế",
+    "region": "Central Vietnam",
+    "province": "Hue",
+    "category": "Noodles",
+    "description": "A signature dish from Hue featuring a rich, flavorful broth infused with lemongrass and a distinctive spicy kick. Bun bo Hue combines various cuts of meat with fresh vegetables.",
+    "ingredients": [
+      "Rice vermicelli",
+      "Beef",
+      "Pork knuckle",
+      "Lemongrass",
+      "Chili",
+      "Shrimp paste",
+      "Fresh vegetables"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Preparing & Simmering the Bones"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Clean the bones and meat with diluted salt water, then blanch them briefly in boiling water.",
+          "Simmer the beef bones with bruised lemongrass and a little onion to create a naturally sweet and fragrant broth."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Cooking the Pork Knuckle"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Cook the pork knuckle until just tender, then immediately transfer it to ice water to keep the skin pleasantly firm and crisp."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Preparing the Shrimp Paste"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Dissolve the shrimp paste in cold water, let it settle, then strain out the clear liquid.",
+          "Add the strained shrimp paste liquid to the broth to reduce sediment while preserving its distinctive flavor."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Making the Chili Paste"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Sauté minced shallots, garlic, and lemongrass with annatto oil until fragrant.",
+          "Add chili powder to create the characteristic reddish-orange color and aroma."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Finishing"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Season the broth with rock sugar and fish sauce, then add some of the chili paste.",
+          "Blanch the rice vermicelli, then arrange the meat, pork knuckle, Vietnamese pork sausage, and pork blood on top.",
+          "Pour the hot broth into the bowl and serve."
+        ]
+      }
+    ],
+    "priceMin": 35000,
+    "priceMax": 65000,
+    "priceUnit": "bowl",
+    "images": [
+      "assets/images/foods/bun-bo-1.jpg",
+      "assets/images/foods/bun-bo-hue.webp",
+      "assets/images/foods/bun-bo-hue-2.webp"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Traditional",
+      "Popular",
+      "Street Food",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mi Quang",
+    "vietnameseName": "Mì Quảng",
+    "region": "Central Vietnam",
+    "province": "Quang Nam",
+    "category": "Noodles",
+    "description": "Mi Quang is a signature dish from Quang Nam, featuring wide rice noodles, a rich and flavorful broth, meat, shrimp, fresh herbs, and crispy rice crackers.",
+    "ingredients": [
+      "Mi Quang noodles",
+      "Shrimp",
+      "Pork",
+      "Quail eggs",
+      "Peanuts",
+      "Fresh herbs",
+      "Rice crackers"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Preparing & Marinating the Toppings"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Clean the meat, shrimp, or chicken and cut them into bite-sized pieces.",
+          "Pound the Vietnamese shallots and fresh turmeric until finely crushed.",
+          "Marinate the toppings with fish sauce, seasoning powder, pepper, sugar, and half of the chopped shallot and turmeric mixture for 20 minutes."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Stir-Frying the Toppings & Cooking the Broth"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Sauté the remaining shallot and turmeric mixture with annatto oil until fragrant.",
+          "Add the marinated meat, shrimp, or chicken and stir-fry over high heat until browned and flavorful.",
+          "Add water or bone broth, using just enough to create a small amount of broth that lightly covers the toppings.",
+          "Bring to a boil, skim off the foam, adjust the seasoning, then reduce the heat and simmer until the toppings are tender and flavorful."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Serving"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Place a layer of chopped fresh vegetables at the bottom of the bowl.",
+          "Add a serving of Mi Quang noodles on top.",
+          "Add the toppings and pour in just enough broth to lightly coat the noodles rather than filling the bowl.",
+          "Sprinkle with roasted peanuts, add scallions and herbs, and serve with crushed grilled rice crackers."
+        ]
+      }
+    ],
+    "priceMin": 35000,
+    "priceMax": 60000,
+    "priceUnit": "bowl",
+    "images": [
+      "assets/images/foods/mi-quang-quang-nam.jpg",
+      "assets/images/foods/mi-quang.webp",
+      "assets/images/foods/mi-quang-hoi-an.webp"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Traditional",
+      "Specialty",
+      "Street Food",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Com Tam",
+    "vietnameseName": "Cơm tấm",
+    "region": "Southern Vietnam",
+    "province": "Ho Chi Minh City",
+    "category": "Rice Dishes",
+    "description": "Com Tam is a popular Southern Vietnamese dish featuring soft broken rice served with fragrant grilled pork ribs, shredded pork skin, steamed egg meatloaf, and sweet and sour fish sauce.",
+    "ingredients": [
+      "Broken rice",
+      "Pork ribs",
+      "Shredded pork skin",
+      "Steamed egg meatloaf",
+      "Fish sauce",
+      "Pickled vegetables",
+      "Cucumber"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Preparing & Cooking the Broken Rice"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Choose fragrant broken rice and rinse it gently to preserve the bran.",
+          "Soak the rice for about 20–30 minutes before cooking to help the grains cook evenly.",
+          "Place the rice in a pot and add slightly less water than usual because broken rice softens quickly.",
+          "Cook in a rice cooker or steam for about 30 minutes until the rice is soft and fluffy."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Preparing the Grilled Pork, Pork Skin & Egg Meatloaf"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Pork chop: Marinate with fish sauce, honey, minced garlic, shallots, lime juice, and a little cooking oil for 2 hours, then grill until fragrant and golden.",
+          "Pork skin: Mix shredded pork with toasted rice powder, fried garlic, and seasoning.",
+          "Steamed egg meatloaf: Mix ground pork, chopped wood ear mushrooms, sliced glass noodles, eggs, shallots, and seasoning, then steam until cooked."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Preparing the Fish Sauce & Serving"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Mix fish sauce, sugar, and water in a 1:1:1 ratio. Simmer briefly, let it cool, then add minced garlic and chili.",
+          "Place the broken rice on a plate, then add the grilled pork chop, sliced egg meatloaf, and a portion of shredded pork skin.",
+          "Drizzle scallion oil over the rice and serve with pickled vegetables and a small bowl of fish sauce."
+        ]
+      }
+    ],
+    "priceMin": 35000,
+    "priceMax": 65000,
+    "priceUnit": "plate",
+    "images": [
+      "assets/images/foods/com-tam-3.jpg",
+      "assets/images/foods/com-tam.jpg",
+      "assets/images/foods/com-tam.webp"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Popular",
+      "Street Food",
+      "Breakfast",
+      "Lunch",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Banh Xeo",
+    "vietnameseName": "Bánh xèo",
+    "region": "Southern Vietnam",
+    "province": "Ho Chi Minh City",
+    "category": "Savory Pancake",
+    "description": "Banh Xeo is a crispy Vietnamese savory pancake with a golden crust, usually filled with shrimp, pork, and bean sprouts. It is wrapped in fresh herbs and served with fish sauce.",
+    "ingredients": [
+      "Rice flour",
+      "Coconut milk",
+      "Shrimp",
+      "Pork",
+      "Bean sprouts",
+      "Fresh herbs",
+      "Fish sauce"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Preparing the Batter"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mix rice flour, crispy frying flour, turmeric powder, and salt. Add water, coconut milk, beer, beaten duck egg, and scallions, then stir until smooth. Add a little cooking oil to the batter and let it rest for 30 minutes to 1 hour."
+      },
+      {
+        "type": "subheading",
+        "text": "Preparing the Filling"
+      },
+      {
+        "type": "paragraph",
+        "text": "Clean the shrimp and pork belly. Marinate them with a little salt, seasoning powder, and minced shallots for 15 minutes, then briefly stir-fry until partially cooked."
+      },
+      {
+        "type": "subheading",
+        "text": "Making the Pancake"
+      },
+      {
+        "type": "paragraph",
+        "text": "Heat a non-stick pan with a little cooking oil. Pour in a ladleful of batter and quickly swirl the pan to spread it into a thin layer."
+      },
+      {
+        "type": "subheading",
+        "text": "Adding the Filling & Frying"
+      },
+      {
+        "type": "paragraph",
+        "text": "Add shrimp, pork, a little mung bean, and bean sprouts on top of the pancake. Cover and cook for 2–3 minutes until the bean sprouts are tender. Remove the lid and continue cooking until the edges are golden and crispy and the pancake releases easily from the pan, then fold it in half."
+      }
+    ],
+    "priceMin": 50000,
+    "priceMax": 100000,
+    "priceUnit": "piece",
+    "images": [
+      "assets/images/foods/banh-xeo.jpg",
+      "assets/images/foods/banh-xeo.webp"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Traditional",
+      "Popular"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Che Ba Mau",
+    "vietnameseName": "Chè ba màu",
+    "region": "Southern Vietnam",
+    "province": "Ho Chi Minh City",
+    "category": "Dessert",
+    "description": "Che Ba Mau is a colorful layered Vietnamese dessert made with mung beans, red beans, jelly, and coconut milk. It has a sweet and creamy flavor and is usually served chilled with ice.",
+    "ingredients": [
+      "Mung beans",
+      "Red beans",
+      "Jelly",
+      "Coconut milk",
+      "Sugar",
+      "Ice cubes"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Making the Green Jelly"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Mix 8g of agar powder with 75g of sugar.",
+          "Bring about 1 liter of pandan leaf water or water mixed with pandan syrup to a boil. Add the agar mixture and stir over low heat for about 10 minutes.",
+          "Pour the mixture into a mold, let it set, then cut it into small cubes."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Cooking the Yellow Mung Beans"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Soak the mung beans for about 30 minutes, then rinse them thoroughly.",
+          "Cook the beans with 250ml of water and a little salt until soft.",
+          "Add sugar and a little coconut milk, then mash until smooth and transfer to a bowl."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Cooking the Red Beans"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "If using dried red beans, soak them overnight and rinse thoroughly.",
+          "Cook the beans with water and sugar over low heat until tender, creamy, and sweet.",
+          "Canned red beans can be used to save time."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Making the Coconut Milk"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Heat 400ml of coconut milk with a little sugar and salt.",
+          "Add a small amount of diluted tapioca starch to slightly thicken the coconut milk."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Assembling the Dessert"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Layer the red beans, mung beans, and jelly in a glass.",
+          "Add crushed ice and pour the coconut milk over the top before serving."
+        ]
+      }
+    ],
+    "priceMin": 20000,
+    "priceMax": 40000,
+    "priceUnit": "glass",
+    "images": [
+      "assets/images/foods/che-ba-mau.webp",
+      "assets/images/foods/che-ba-mau-2.jpg"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Sweet",
+      "Street Food",
+      "Vegetarian"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Banh Mi",
+    "vietnameseName": "Bánh mì",
+    "region": "Southern Vietnam",
+    "province": "Ho Chi Minh City",
+    "category": "Bread",
+    "description": "Vietnamese banh mi features a crispy baguette filled with a variety of meats, fresh herbs, pickled vegetables, and flavorful sauces.",
+    "ingredients": [
+      "Baguette",
+      "Pâté",
+      "Cold cuts",
+      "Vietnamese pork sausage",
+      "Cucumber",
+      "Pickled vegetables",
+      "Cilantro",
+      "Sauce"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Making the Baguette"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Mix flour, water, yeast, and a little salt, then knead thoroughly.",
+          "Let the dough rise until doubled in size.",
+          "Shape the dough into long loaves, score the surface, and spray with a little water.",
+          "Bake at around 200°C for 15–20 minutes until the crust is golden and crispy."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Preparing the Fillings & Sauce"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Blend pork liver and steam it with pepper and garlic to make pâté.",
+          "Prepare egg butter or a minced meat sauce depending on the type of banh mi.",
+          "Make pickled vegetables by soaking shredded daikon and carrots in a mixture of vinegar and sugar."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Assembling the Banh Mi"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Slice the baguette lengthwise without cutting it completely in half.",
+          "Spread pâté and butter on the inside.",
+          "Add Vietnamese pork sausage, cold cuts, or grilled meat.",
+          "Add pickled vegetables, cucumber, cilantro, and chili to taste.",
+          "Serve immediately to keep the crust crispy."
+        ]
+      }
+    ],
+    "priceMin": 15000,
+    "priceMax": 30000,
+    "priceUnit": "piece",
+    "images": [
+      "assets/images/foods/banh-mi-2.webp",
+      "assets/images/foods/banh-mi.webp",
+      "assets/images/foods/banh-mi-3.jpeg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Popular",
+      "Street Food",
+      "Breakfast",
+      "Traditional",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Ca Kho To",
+    "vietnameseName": "Cá kho tộ",
+    "region": "Southern Vietnam",
+    "province": "Tien Giang",
+    "category": "Braised Dishes",
+    "description": "A flavorful Vietnamese braised fish dish traditionally cooked in a clay pot, featuring a glossy brown color and a balanced savory and sweet flavor.",
+    "ingredients": [
+      "Fish",
+      "Fish sauce",
+      "Sugar",
+      "Pepper",
+      "Shallots",
+      "Garlic",
+      "Chili",
+      "Caramel sauce"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Preparing the Fish"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Clean the fish and cut it into bite-sized pieces.",
+          "Rub the fish with salt to remove excess slime and fishy odor."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Marinating the Fish"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Mix the fish with fish sauce, sugar, minced shallots and garlic, pepper, and a little cooking oil.",
+          "Marinate for at least 30 minutes to allow the flavors to absorb."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Making the Caramel Sauce"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Add sugar to a clay pot and heat until it melts and turns a deep caramel brown."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Braising the Fish"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Arrange the pork belly and marinated fish in the pot.",
+          "Add fresh coconut water until it nearly covers the fish.",
+          "Bring to a boil, then reduce the heat and simmer for about 45–60 minutes.",
+          "Continue braising until the sauce becomes thick, the fish is well seasoned, and the surface becomes glossy."
+        ]
+      }
+    ],
+    "priceMin": 60000,
+    "priceMax": 120000,
+    "priceUnit": "pot",
+    "images": [
+      "assets/images/foods/ca-kho-to-2.jpeg",
+      "assets/images/foods/ca-kho-to-3.jpeg",
+      "assets/images/foods/ca-kho-to.webp"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Traditional",
+      "Family Meal",
+      "Mekong Delta",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Banh chung",
+    "vietnameseName": "Bánh chưng",
+    "region": "Vietnam",
+    "province": "",
+    "category": "Traditional Cakes",
+    "description": "A traditional Vietnamese cake that is an essential part of Tet celebrations, made from sticky rice, mung beans, and pork wrapped in dong leaves.",
+    "ingredients": [
+      "Sticky rice",
+      "Mung beans",
+      "Pork belly",
+      "Dong leaves",
+      "Salt",
+      "Pepper"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Layer the ingredients"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Arrange the dong leaves neatly and place a layer of sticky rice in the center.",
+          "Add mung beans and pork in the middle, then cover with another layer of sticky rice."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Wrap and tie"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Fold the dong leaves firmly to create a neat square shape.",
+          "Tie the cake securely with bamboo strings, but not too tightly to leave room for the cake to expand during boiling."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Boil the cake"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Place the cakes in a pot, cover completely with water, and boil continuously for about 10–12 hours.",
+          "Maintain a steady heat and add more boiling water when necessary to keep the cakes submerged."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Press the cake"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Remove the cakes and rinse them with cold water to clean off the outer starch.",
+          "Arrange the cakes on a tray and place a heavy object on top to press out excess water and make the cakes firmer and chewier."
+        ]
+      }
+    ],
+    "priceMin": 60000,
+    "priceMax": 80000,
+    "priceUnit": "piece",
+    "images": [
+      "assets/images/foods/banh-chung.jpg",
+      "assets/images/foods/banh-chung-2.jpg",
+      "assets/images/foods/banh-chung-3.jpg"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Tet",
+      "Traditional",
+      "Popular",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Hu tieu My Tho",
+    "vietnameseName": "Hủ tiếu Mỹ Tho",
+    "region": "Southern Vietnam",
+    "province": "Tien Giang",
+    "category": "Noodles",
+    "description": "A famous My Tho noodle soup featuring chewy rice noodles, a clear and naturally sweet broth, and a variety of meat and shrimp toppings.",
+    "ingredients": [
+      "Rice noodles",
+      "Pork bones",
+      "Shrimp",
+      "Pork",
+      "Pork liver",
+      "Quail eggs",
+      "Bean sprouts",
+      "Green onions"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Prepare the noodles"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Use thin, dry, chewy rice noodles.",
+          "Blanch the noodles in boiling water until just cooked to preserve their firm, chewy texture."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the broth"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Simmer pork bones with smashed sugarcane to create natural sweetness.",
+          "Add toasted dried shrimp, dried squid, or sandworms to enhance the depth of flavor.",
+          "Continue simmering until the broth becomes clear and naturally sweet."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the toppings"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Prepare minced pork, sliced pork, or char siu, along with boiled shrimp.",
+          "Boil quail eggs and pork offal such as heart, liver, tongue, and kidney, then slice into bite-sized pieces."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Assemble"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Place the blanched noodles in a bowl and arrange the toppings on top.",
+          "Add bean sprouts, garlic chives, Chinese celery, and lettuce.",
+          "Sprinkle with crispy pork cracklings and fried shallots.",
+          "Pour the hot broth over everything and serve with a small bowl of soy sauce mixed with vinegar and sugar."
+        ]
+      }
+    ],
+    "priceMin": 35000,
+    "priceMax": 50000,
+    "priceUnit": "bowl",
+    "images": [
+      "assets/images/foods/hu-tieu-my-tho.webp",
+      "assets/images/foods/hu-tieu-mi-tho-3.jpg",
+      "assets/images/foods/hu-tieu-mi-tho-2.jpg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Specialty",
+      "Mekong Delta"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Goi cuon",
+    "vietnameseName": "Gỏi cuốn",
+    "region": "Southern Vietnam",
+    "province": "Ho Chi Minh City",
+    "category": "Fresh Rolls",
+    "description": "A fresh and light Vietnamese roll made with rice paper, shrimp, pork, rice vermicelli, and fresh herbs, served with a flavorful dipping sauce.",
+    "ingredients": [
+      "Rice paper",
+      "Shrimp",
+      "Pork",
+      "Rice vermicelli",
+      "Lettuce",
+      "Thai basil",
+      "Garlic chives",
+      "Dipping sauce"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Cook the ingredients"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Boil fresh shrimp for about 3 minutes until cooked, then peel, remove the heads, and slice them in half lengthwise.",
+          "Boil pork belly with a little salt until just cooked, then slice it thinly.",
+          "Briefly blanch the fresh rice vermicelli in hot water."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the herbs"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Wash the lettuce and fresh herbs such as Thai basil, perilla, Vietnamese balm, and garlic chives."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Roll the spring rolls"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Dip the rice paper briefly in water until soft and pliable.",
+          "Arrange the lettuce, herbs, vermicelli, pork, and shrimp on the rice paper.",
+          "Place the shrimp facing outward for a more attractive presentation.",
+          "Add a garlic chive and roll everything tightly."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the dipping sauce"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "You can use hoisin sauce mixed with butter or crushed roasted peanuts.",
+          "Alternatively, fresh spring rolls can be served with Vietnamese sweet-and-sour fish sauce or fermented shrimp paste."
+        ]
+      }
+    ],
+    "priceMin": 5000,
+    "priceMax": 20000,
+    "priceUnit": "roll",
+    "images": [
+      "assets/images/foods/goi-cuon-2.jpeg",
+      "assets/images/foods/goi-cuon-3.jpg",
+      "assets/images/foods/goi-cuon.webp"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Popular",
+      "Street Food",
+      "Traditional",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Nem ran",
+    "vietnameseName": "Nem rán",
+    "region": "Vietnam",
+    "province": "",
+    "category": "Fried Dishes",
+    "description": "A traditional Vietnamese fried spring roll with a crispy wrapper and a savory filling of pork, glass noodles, wood ear mushrooms, and vegetables.",
+    "ingredients": [
+      "Rice paper wrappers",
+      "Ground pork",
+      "Glass noodles",
+      "Wood ear mushrooms",
+      "Carrots",
+      "Green onions",
+      "Eggs",
+      "Fish sauce"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Prepare the Filling"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Mix minced or ground pork shoulder with soaked and finely chopped glass noodles, wood ear mushrooms, shiitake mushrooms, carrots or kohlrabi, green onions, and eggs.",
+          "Season with salt, black pepper, and fish sauce, then mix well until the filling is evenly seasoned."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Wrap the Spring Rolls"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Lay the rice paper wrappers flat, soften them, and place an appropriate amount of filling in the center.",
+          "Fold in both sides and roll the wrapper tightly into a firm spring roll."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Fry the Spring Rolls"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Heat oil in a pan and fry the spring rolls over medium heat.",
+          "Turn them evenly until the wrappers become golden and crispy, then remove and drain."
+        ]
+      }
+    ],
+    "priceMin": 3000,
+    "priceMax": 6000,
+    "priceUnit": "piece",
+    "images": [
+      "assets/images/foods/nem-ran-3.jpg",
+      "assets/images/foods/nem-ran-2.jpg",
+      "assets/images/foods/nem-ran.webp"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Traditional",
+      "Popular",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Bo la lot",
+    "vietnameseName": "Bò lá lốt",
+    "region": "Southern Vietnam",
+    "province": "Ho Chi Minh City",
+    "category": "Grilled Dishes",
+    "description": "Grilled beef wrapped in wild betel leaves, featuring savory seasoned beef combined with the distinctive aroma of wild betel leaves.",
+    "ingredients": [
+      "Ground beef",
+      "Wild betel leaves",
+      "Pork fat",
+      "Shallots",
+      "Garlic",
+      "Black pepper",
+      "Fish sauce"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Prepare & marinate the beef"
+      },
+      {
+        "type": "paragraph",
+        "text": "Finely mince the beef and mix it with a little pork fat or caul fat, chopped shallots, garlic, lemongrass, black pepper, seasoning powder, and fish sauce. Refrigerate for about 60 minutes to allow the flavors to absorb evenly."
+      },
+      {
+        "type": "subheading",
+        "text": "Wrap the beef in wild betel leaves"
+      },
+      {
+        "type": "paragraph",
+        "text": "Choose medium-aged wild betel leaves that are neither too mature nor too young. Place the veined side facing outward, add a small spoonful of the beef mixture to the center, then roll the leaf tightly into a compact cylinder."
+      },
+      {
+        "type": "subheading",
+        "text": "Grill"
+      },
+      {
+        "type": "paragraph",
+        "text": "Arrange the beef rolls on a grill and cook them over glowing charcoal until the leaves are lightly charred and fragrant, while the fat from the filling renders and coats the meat. They can be topped with scallion oil and roasted peanuts."
+      },
+      {
+        "type": "subheading",
+        "text": "Serve"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bo la lot is commonly served with rice paper, fresh rice vermicelli, assorted fresh herbs and vegetables, and either fermented anchovy dipping sauce or sweet and sour fish sauce."
+      }
+    ],
+    "priceMin": 40000,
+    "priceMax": 70000,
+    "priceUnit": "serving",
+    "images": [
+      "assets/images/foods/bo-la-lot-1.jpg",
+      "assets/images/foods/bo-la-lot-2.jpg",
+      "assets/images/foods/bo-la-lot-3.jpg"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Street Food",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Bun dau mam tom",
+    "vietnameseName": "Bún đậu mắm tôm",
+    "region": "Northern Vietnam",
+    "province": "Hanoi",
+    "category": "Noodles",
+    "description": "A Vietnamese platter featuring fresh rice vermicelli, crispy fried tofu, boiled pork, and assorted Vietnamese pork cakes, served with richly seasoned fermented shrimp paste.",
+    "ingredients": [
+      "Rice vermicelli sheets",
+      "Tofu",
+      "Pork",
+      "Com pork cake",
+      "Fried fermented pork rolls",
+      "Fresh herbs and vegetables",
+      "Fermented shrimp paste"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Fry the tofu"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cut the tofu into small pieces and deep-fry or pan-fry until the outside is golden and crispy while the inside remains soft and creamy."
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the pork and pork cakes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Boil the pork leg until cooked, then slice it thinly. Fry the com pork cakes until golden and fragrant. Fried fermented pork rolls, crispy pork intestines, or pork sausage can also be served on the side."
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the vermicelli"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cut the rice vermicelli sheets into bite-sized pieces or use fresh rice vermicelli."
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the fresh herbs and vegetables"
+      },
+      {
+        "type": "paragraph",
+        "text": "Wash Vietnamese balm, perilla leaves, Thai basil, cucumber, green banana, and sour star fruit, then drain well."
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the fermented shrimp paste"
+      },
+      {
+        "type": "paragraph",
+        "text": "Place the fermented shrimp paste in a bowl and add sugar, lime or kumquat juice, minced garlic, and chili. Whisk vigorously with chopsticks or a spoon until light and foamy. Drizzle in a little hot oil used for frying the tofu to enhance its aroma."
+      }
+    ],
+    "priceMin": 60000,
+    "priceMax": 100000,
+    "priceUnit": "platter",
+    "images": [
+      "assets/images/foods/bun-dau-mam-tom-3.webp",
+      "assets/images/foods/bun-dau-mam-tom-2.jpg",
+      "assets/images/foods/bun-dau-mam-tom.jpg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Street Food",
+      "Specialty",
+      "Popular",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Canh chua",
+    "vietnameseName": "Canh chua",
+    "region": "Southern Vietnam",
+    "province": "An Giang",
+    "category": "Soups",
+    "description": "A refreshing Vietnamese sour soup traditionally made with fish, tamarind, pineapple, tomatoes, and a variety of characteristic vegetables.",
+    "ingredients": [
+      "Fish",
+      "Tamarind",
+      "Pineapple",
+      "Tomatoes",
+      "Okra",
+      "Bean sprouts",
+      "Elephant ear stems",
+      "Rice paddy herb"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Prepare the tamarind broth"
+      },
+      {
+        "type": "paragraph",
+        "text": "Soak and mash the tamarind with warm water, then strain to extract the juice. Bring water to a boil, add the tamarind juice, salt, sugar, and fish sauce, and adjust until the broth has a balanced sweet and sour flavor."
+      },
+      {
+        "type": "subheading",
+        "text": "Cook the fish"
+      },
+      {
+        "type": "paragraph",
+        "text": "Add the fish to the broth and cook until just done, then carefully remove it to prevent the flesh from breaking apart."
+      },
+      {
+        "type": "subheading",
+        "text": "Cook the vegetables"
+      },
+      {
+        "type": "paragraph",
+        "text": "Add pineapple, tomatoes, okra, and elephant ear stems to the boiling broth and cook until the vegetables are just tender."
+      },
+      {
+        "type": "subheading",
+        "text": "Finish"
+      },
+      {
+        "type": "paragraph",
+        "text": "Add the bean sprouts and return the fish to the pot. Sprinkle with rice paddy herb and culantro, then turn off the heat. Fried garlic can be added when serving."
+      }
+    ],
+    "priceMin": 35000,
+    "priceMax": 70000,
+    "priceUnit": "bowl",
+    "images": [
+      "assets/images/foods/canh-chua-3.jpg",
+      "assets/images/foods/canh-chua-2.jpg",
+      "assets/images/foods/canh-chua.jpg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Family Meal",
+      "Traditional",
+      "Mekong Delta"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Banh trang nuong",
+    "vietnameseName": "Bánh tráng nướng",
+    "region": "Central Vietnam",
+    "province": "Da Lat",
+    "category": "Snacks",
+    "description": "A crispy and savory Vietnamese street snack made by grilling rice paper over charcoal and topping it with eggs, green onions, sausage and a variety of other toppings.",
+    "ingredients": [
+      "Rice paper",
+      "Quail eggs",
+      "Green onions",
+      "Sausage",
+      "Dried beef",
+      "Dried shrimp floss",
+      "Chili satay",
+      "Mayonnaise"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Prepare the grill"
+      },
+      {
+        "type": "paragraph",
+        "text": "Prepare a charcoal grill and a small grilling rack."
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the main ingredients"
+      },
+      {
+        "type": "paragraph",
+        "text": "Prepare thin rice paper, quail eggs or chicken eggs, and scallion oil."
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the toppings"
+      },
+      {
+        "type": "paragraph",
+        "text": "Prepare toppings such as minced meat or dried beef, sausage, dried shrimp, cheese and fried shallots."
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the sauces"
+      },
+      {
+        "type": "paragraph",
+        "text": "Prepare chili sauce, mayonnaise or sweet-and-sour tamarind sauce according to taste."
+      },
+      {
+        "type": "subheading",
+        "text": "Grill the rice paper"
+      },
+      {
+        "type": "paragraph",
+        "text": "Place the rice paper on the charcoal grill, crack the eggs over it and spread them evenly across the surface together with scallion oil. Add the toppings and sauces, then continuously rotate the rack over medium heat until the rice paper becomes crisp and fragrant."
+      }
+    ],
+    "priceMin": 15000,
+    "priceMax": 30000,
+    "priceUnit": "piece",
+    "images": [
+      "assets/images/foods/banh-trang-nuong.jpg",
+      "assets/images/foods/banh-trang-nuong-2.jpg",
+      "assets/images/foods/banh-trang-nuong-3.jpg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Street Food",
+      "Popular",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Chao long",
+    "vietnameseName": "Cháo lòng",
+    "region": "Vietnam",
+    "province": "",
+    "category": "Soups",
+    "description": "A hot rice porridge cooked with pork bones and served with pork offal, blood pudding and fresh herbs.",
+    "ingredients": [
+      "Rice",
+      "Pork bones",
+      "Pork offal",
+      "Pork blood pudding",
+      "Pork liver",
+      "Green onions",
+      "Black pepper",
+      "Fresh herbs"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Prepare the offal"
+      },
+      {
+        "type": "paragraph",
+        "text": "Clean the offal, such as heart, liver, intestines, stomach and pork sausage, with salt and lime or vinegar. Boil until just cooked to preserve its natural sweetness and a pleasant texture."
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the rice"
+      },
+      {
+        "type": "paragraph",
+        "text": "Toast the rice until golden. A small amount of glutinous rice can also be mixed in to add fragrance and a richer texture."
+      },
+      {
+        "type": "subheading",
+        "text": "Make the broth"
+      },
+      {
+        "type": "paragraph",
+        "text": "Use the offal cooking water and simmer it with pork bones to create a naturally rich and flavorful broth."
+      },
+      {
+        "type": "subheading",
+        "text": "Finish the porridge"
+      },
+      {
+        "type": "paragraph",
+        "text": "Season to taste and add pork blood pudding if desired. Ladle the porridge into a bowl, top with thinly sliced offal, green onions and freshly ground black pepper."
+      }
+    ],
+    "priceMin": 25000,
+    "priceMax": 40000,
+    "priceUnit": "bowl",
+    "images": [
+      "assets/images/foods/chao-long-3.webp",
+      "assets/images/foods/chao-long-2.jpg",
+      "assets/images/foods/chao-long.jpg"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Traditional",
+      "Popular",
+      "Breakfast"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Bun rieu",
+    "vietnameseName": "Bún riêu",
+    "region": "Northern Vietnam",
+    "province": "Hanoi",
+    "category": "Noodles",
+    "description": "A Vietnamese noodle soup made with freshwater crab, tomatoes and a lightly sour broth, commonly served with fresh herbs and vegetables.",
+    "ingredients": [
+      "Rice vermicelli",
+      "Freshwater crab",
+      "Tomatoes",
+      "Tofu",
+      "Fermented shrimp paste",
+      "Green onions",
+      "Fresh herbs",
+      "Rice vinegar"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Prepare the crab"
+      },
+      {
+        "type": "paragraph",
+        "text": "Remove the shells from the freshwater crabs and set the roe aside. Pound or blend the crab meat, then strain it to extract the crab broth."
+      },
+      {
+        "type": "subheading",
+        "text": "Make the crab cakes"
+      },
+      {
+        "type": "paragraph",
+        "text": "Heat the strained crab broth over medium heat until the crab meat coagulates and forms floating clusters. Gently remove them and set aside. Sauté the crab roe with onion and pork fat until it develops a beautiful golden-red color."
+      },
+      {
+        "type": "subheading",
+        "text": "Cook the broth"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sauté the onions, add the tomatoes and cook until they release their color and a mild tang. Add fermented rice vinegar in the northern style, or tamarind and lime juice in southern variations. Season with fermented shrimp paste and other spices to taste."
+      },
+      {
+        "type": "subheading",
+        "text": "Serve"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pour the hot broth over fresh rice vermicelli, then add crab cakes, cooked crab roe, fried tofu and tomatoes. Serve with fresh vegetables such as shredded banana blossom and shredded water spinach."
+      }
+    ],
+    "priceMin": 25000,
+    "priceMax": 50000,
+    "priceUnit": "bowl",
+    "images": [
+      "assets/images/foods/bun-rieu.webp",
+      "assets/images/foods/bun-rieu-2.webp",
+      "assets/images/foods/bun-rieu-3.webp"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Traditional",
+      "Popular",
+      "Breakfast",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Bun thit nuong",
+    "vietnameseName": "Bún thịt nướng",
+    "region": "Southern Vietnam",
+    "province": "Ho Chi Minh City",
+    "category": "Noodles",
+    "description": "A Vietnamese noodle dish topped with fragrant grilled pork, fresh herbs, pickled vegetables, roasted peanuts, and sweet and sour fish sauce.",
+    "ingredients": [
+      "Rice vermicelli",
+      "Pork",
+      "Lemongrass",
+      "Fresh herbs",
+      "Pickled vegetables",
+      "Roasted peanuts",
+      "Scallions",
+      "Fish sauce"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Preparation & marinating"
+      },
+      {
+        "type": "paragraph",
+        "text": "Use pork shoulder or pork belly with some fat to keep the meat tender and juicy. Thinly slice the pork and marinate it with minced lemongrass, shallots, garlic, fish sauce, sugar, oyster sauce, or honey for at least 1 hour."
+      },
+      {
+        "type": "subheading",
+        "text": "Grill the pork"
+      },
+      {
+        "type": "paragraph",
+        "text": "Place the pork on a grill or thread it onto skewers and grill over hot charcoal until golden brown, slightly charred around the edges, and fragrant."
+      },
+      {
+        "type": "subheading",
+        "text": "Prepare the dipping sauce"
+      },
+      {
+        "type": "paragraph",
+        "text": "Make a sweet and sour fish sauce by combining fish sauce, sugar, lime juice or vinegar, minced garlic, and chili."
+      },
+      {
+        "type": "subheading",
+        "text": "Assemble"
+      },
+      {
+        "type": "paragraph",
+        "text": "Place fresh rice vermicelli in a bowl or on a plate, then top with fresh herbs, pickled vegetables, grilled pork, and spring rolls. Add scallion oil and roasted peanuts. Drizzle with sweet and sour fish sauce and mix well before eating."
+      }
+    ],
+    "priceMin": 25000,
+    "priceMax": 50000,
+    "priceUnit": "bowl",
+    "images": [
+      "assets/images/foods/bun-thit-nuong.webp",
+      "assets/images/foods/bun-thit-nuong-2.png",
+      "assets/images/foods/bun-thit-nuong-3.jpg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Street Food",
+      "Popular",
+      "Breakfast",
+      "Must Try"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Bo kho",
+    "vietnameseName": "Bò kho",
+    "region": "Southern Vietnam",
+    "province": "Ho Chi Minh City",
+    "category": "Stewed Dishes",
+    "description": "A rich and aromatic Vietnamese beef stew with tender beef, carrots, and fragrant spices such as cinnamon, star anise, and lemongrass.",
+    "ingredients": [
+      "Beef",
+      "Carrot",
+      "Lemongrass",
+      "Cinnamon",
+      "Star anise",
+      "Ginger",
+      "Onion",
+      "Broth"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Preparation and marinating"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cut the beef into cubes and marinate it with beef stew seasoning, minced lemongrass, garlic, onion, five-spice powder, and a little annatto oil for about 30 minutes."
+      },
+      {
+        "type": "subheading",
+        "text": "Sear the beef"
+      },
+      {
+        "type": "paragraph",
+        "text": "Sauté the onion, garlic, and lemongrass until fragrant, then add the beef and stir-fry until the outside is seared and the seasoning is well absorbed."
+      },
+      {
+        "type": "subheading",
+        "text": "Simmer until tender"
+      },
+      {
+        "type": "paragraph",
+        "text": "Add enough water or fresh coconut water to cover the beef. Add bruised lemongrass stalks, star anise, and cinnamon, then simmer over low heat until the beef is tender."
+      },
+      {
+        "type": "subheading",
+        "text": "Finish"
+      },
+      {
+        "type": "paragraph",
+        "text": "When the beef is nearly tender, add the carrot pieces and continue simmering until soft. Adjust the seasoning and consistency to taste. Bo Kho is commonly served with Vietnamese baguette, rice noodles, or fresh noodles."
+      }
+    ],
+    "priceMin": 45000,
+    "priceMax": 80000,
+    "priceUnit": "bowl",
+    "images": [
+      "assets/images/foods/bo-kho.jpg",
+      "assets/images/foods/bo-kho-2.webp",
+      "assets/images/foods/bo-kho-3.jpg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Breakfast",
+      "Traditional",
+      "Must Try"
+    ]
+  }
+]

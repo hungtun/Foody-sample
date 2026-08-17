@@ -4,6 +4,36 @@
 
 let articlesCache = [];
 
+function renderStructuredContent(content = []) {
+  return content
+    .map((block) => {
+      if (!block || typeof block !== "object") return "";
+
+      switch (block.type) {
+        case "heading":
+          return `<h2 class="text-2xl font-bold my-4">${block.text}</h2>`;
+        case "subheading":
+          return `<h3 class="text-xl font-semibold mt-6 mb-3">${block.text}</h3>`;
+        case "bold-text":
+          return `<p class="font-semibold my-3">${block.text}</p>`;
+        case "paragraph":
+          return `<p class="mb-4 text-lg leading-relaxed">${block.text}</p>`;
+        case "image":
+          return `
+            <figure class="my-6">
+              <img src="${block.src}" alt="${block.caption || "Article image"}" class="w-full max-h-[420px] object-cover bg-[#d9d0c0]" onerror="this.src='${placeholderImage(block.caption || "Article image", 1200, 600)}'" />
+              ${block.caption ? `<figcaption class="mt-2 text-sm muted">${block.caption}</figcaption>` : ""}
+            </figure>
+          `;
+        case "list":
+          return `<ul class="list-disc pl-6 mb-4 space-y-1">${(block.items || []).map((item) => `<li>${item}</li>`).join("")}</ul>`;
+        default:
+          return "";
+      }
+    })
+    .join("");
+}
+
 function renderArticleCards(list) {
   const grid = document.getElementById("articles-grid");
   if (!grid) return;
@@ -41,9 +71,9 @@ function filterArticles() {
     const matchCat = !cat || a.category === cat;
     const matchQ =
       !q ||
-      a.title.toLowerCase().includes(q) ||
-      a.excerpt.toLowerCase().includes(q) ||
-      a.category.toLowerCase().includes(q);
+      (a.title || "").toLowerCase().includes(q) ||
+      (a.excerpt || "").toLowerCase().includes(q) ||
+      (a.category || "").toLowerCase().includes(q);
     return matchCat && matchQ;
   });
 }
@@ -66,7 +96,7 @@ async function initArticlesList() {
     refresh();
   } catch (err) {
     console.error(err);
-    grid.innerHTML = `<div class="empty-state">Could not load articles.json.</div>`;
+    grid.innerHTML = `<div class="empty-state">Could not load articles data.</div>`;
   }
 }
 
@@ -90,7 +120,6 @@ async function initArticleDetail() {
     }
 
     document.title = `${article.title} · Vietnam Food Guide`;
-    const paragraphs = article.content.map((p) => `<p class="mb-4 text-lg leading-relaxed">${p}</p>`).join("");
 
     mount.innerHTML = `
       <a href="articles.html" class="muted text-sm inline-block mb-4">← All articles</a>
@@ -102,7 +131,7 @@ async function initArticleDetail() {
         class="w-full max-h-[420px] object-cover mb-8 bg-[#d9d0c0]"
         onerror="this.src='${placeholderImage(article.title, 1200, 600)}'"
       />
-      <div class="max-w-3xl">${paragraphs}</div>
+      <div class="max-w-3xl">${renderStructuredContent(article.content || [])}</div>
     `;
   } catch (err) {
     console.error(err);

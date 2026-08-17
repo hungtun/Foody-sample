@@ -10,16 +10,42 @@ function showToast(message) {
   setTimeout(() => el.classList.remove("is-visible"), 2200);
 }
 
+function renderCookingMethod(method) {
+  if (!Array.isArray(method) || !method.length) {
+    return '<p class="muted max-w-3xl">No cooking guide available.</p>';
+  }
+
+  return method
+    .map((step) => {
+      if (step.type === "subheading") {
+        return `<h3 class="text-xl font-semibold mt-6 mb-2">${step.text}</h3>`;
+      }
+      if (step.type === "heading") {
+        return `<h3 class="text-xl font-semibold mt-6 mb-2">${step.text}</h3>`;
+      }
+      if (step.type === "paragraph") {
+        return `<p class="mb-3 text-base leading-relaxed">${step.text}</p>`;
+      }
+      if (step.type === "list") {
+        return `<ul class="list-disc pl-5 mb-3 space-y-1">${(step.items || []).map((item) => `<li>${item}</li>`).join("")}</ul>`;
+      }
+      return "";
+    })
+    .join("");
+}
+
 function openLightbox(src, alt) {
   const box = document.getElementById("lightbox");
   const img = document.getElementById("lightbox-img");
+  if (!box || !img) return;
   img.src = src;
   img.alt = alt || "";
   box.classList.add("is-open");
 }
 
 function closeLightbox() {
-  document.getElementById("lightbox").classList.remove("is-open");
+  const box = document.getElementById("lightbox");
+  if (box) box.classList.remove("is-open");
 }
 
 async function initFoodDetail() {
@@ -45,11 +71,12 @@ async function initFoodDetail() {
 
     const images = food.images?.length
       ? food.images
-      : [placeholderImage(food.name)];
+      : [food.image || placeholderImage(food.name)];
 
     const saved = isFoodSaved(food.id);
-    const tags = food.tags.map((t) => `<span class="tag">${t}</span>`).join("");
-    const ingredients = food.ingredients.map((i) => `<li>${i}</li>`).join("");
+    const tags = (food.tags || []).map((t) => `<span class="tag">${t}</span>`).join("");
+    const ingredients = (food.ingredients || []).map((i) => `<li>${i}</li>`).join("");
+    const ratingText = Number.isFinite(Number(food.rating)) ? `${food.rating} / 5` : "Not rated yet";
     const thumbs = images
       .map(
         (src, i) => `
@@ -74,7 +101,7 @@ async function initFoodDetail() {
           <p class="text-xl muted mb-4">${food.vietnameseName}</p>
           <p class="mb-4">${food.description}</p>
           <p class="mb-2"><strong>Price:</strong> ${formatPrice(food.priceMin, food.priceMax)}</p>
-          <p class="mb-4"><strong>Rating:</strong> ${food.rating} / 5</p>
+          <p class="mb-4"><strong>Rating:</strong> ${ratingText}</p>
           <div class="mb-5">${tags}</div>
           <button type="button" class="btn ${saved ? "btn--ghost" : "btn--primary"}" id="btn-save">
             ${saved ? "♥ Saved" : "♡ Save Food"}
@@ -89,7 +116,7 @@ async function initFoodDetail() {
 
       <section>
         <h2 class="text-2xl mb-3">Cooking Method</h2>
-        <p class="muted max-w-3xl">${food.cookingMethod}</p>
+        <div class="muted max-w-3xl">${renderCookingMethod(food.cookingMethod)}</div>
       </section>
     `;
 
@@ -108,11 +135,11 @@ async function initFoodDetail() {
       btn.addEventListener("click", () => setImage(Number(btn.dataset.index)));
     });
 
-    document.getElementById("gallery-main").addEventListener("click", () => {
+    document.getElementById("gallery-main")?.addEventListener("click", () => {
       openLightbox(images[current], food.name);
     });
 
-    document.getElementById("btn-save").addEventListener("click", (e) => {
+    document.getElementById("btn-save")?.addEventListener("click", (e) => {
       const nowSaved = toggleSavedFood(food.id);
       e.currentTarget.textContent = nowSaved ? "♥ Saved" : "♡ Save Food";
       e.currentTarget.className = `btn ${nowSaved ? "btn--ghost" : "btn--primary"}`;

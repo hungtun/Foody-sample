@@ -1,0 +1,1509 @@
+[
+  {
+    "id": 1,
+    "name": "Phở",
+    "vietnameseName": "Phở",
+    "region": "Miền Bắc",
+    "province": "Hà Nội",
+    "category": "Món nước",
+    "description": "Món phở trứ danh của Việt Nam với nước dùng bò thơm ngon, bánh phở và các loại rau thơm tươi mát. Một món ăn sáng kinh điển không thể bỏ qua tại Hà Nội.",
+    "ingredients": [
+      "Bánh phở",
+      "Thịt bò",
+      "Nước dùng bò",
+      "Hành tây",
+      "Gừng",
+      "Hoa hồi",
+      "Rau thơm"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Sơ chế & nướng gia vị"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rửa sạch xương bò, luộc sơ rồi rửa lại. Nướng thơm hành khô, gừng và một khúc mía. Rang sơ quế, hoa hồi, thảo quả rồi cho tất cả vào túi vải lọc."
+      },
+      {
+        "type": "subheading",
+        "text": "Hầm nước dùng"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cho xương vào nồi nước lạnh hầm nhỏ lửa từ 6–8 tiếng, không đậy nắp. Cho túi gia vị thảo mộc và hành gừng nướng vào hầm chung, nêm đường phèn và muối/nước mắm vừa ăn."
+      },
+      {
+        "type": "subheading",
+        "text": "Luộc thịt & hoàn thiện"
+      },
+      {
+        "type": "paragraph",
+        "text": "Luộc riêng phần thịt nạm/gầu chín tới, vớt ra thái lát mỏng. Chần bánh phở qua nước sôi, xếp thịt lên trên, thêm hành lá rồi chan nước dùng nóng hổi."
+      }
+    ],
+    "priceMin": 35000,
+    "priceMax": 70000,
+    "priceUnit": "tô",
+    "images": [
+      "assets/images/foods/pho-ha-noi.webp",
+      "assets/images/foods/pho-ha-noi-2.jpg",
+      "assets/images/foods/pho-ha-noi-3.jpg"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Truyền thống",
+      "Phổ biến",
+      "Đường phố",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bún bò Huế",
+    "vietnameseName": "Bún bò Huế",
+    "region": "Miền Trung",
+    "province": "Huế",
+    "category": "Món bún",
+    "description": "Món bún đặc trưng của Huế với nước dùng đậm đà, thơm mùi sả và vị cay đặc trưng. Bún bò Huế kết hợp nhiều loại thịt cùng rau sống tươi mát.",
+    "ingredients": [
+      "Bún",
+      "Thịt bò",
+      "Giò heo",
+      "Sả",
+      "Ớt",
+      "Mắm ruốc",
+      "Rau sống"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Sơ chế và hầm xương"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Rửa sạch xương và thịt với nước muối loãng, chần sơ qua nước sôi.",
+          "Hầm xương ống với sả đập dập và một chút hành tây để tạo vị ngọt thanh cho nước dùng."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Luộc giò heo"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Luộc giò heo vừa chín tới rồi vớt ra ngâm ngay vào nước đá lạnh để phần da giữ được độ giòn."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Pha mắm ruốc"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Hòa tan mắm ruốc với nước lạnh, để lắng rồi chắt lấy phần nước trong.",
+          "Cho phần nước mắm ruốc trong vào nồi nước dùng để hạn chế cặn và giữ hương vị thơm ngon."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Chưng sa tế"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Phi thơm hành, tỏi và sả băm với dầu màu điều.",
+          "Thêm ớt bột để tạo màu đỏ cam và mùi thơm đặc trưng cho sa tế."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Hoàn thành"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Nêm nước dùng với đường phèn và nước mắm, sau đó thêm một phần sa tế vào nồi.",
+          "Trụng bún rồi xếp thịt, giò heo, chả và huyết lên trên.",
+          "Chan nước dùng nóng vào tô và thưởng thức."
+        ]
+      }
+    ],
+    "priceMin": 35000,
+    "priceMax": 65000,
+    "priceUnit": "tô",
+    "images": [
+      "assets/images/foods/bun-bo-1.jpg",
+      "assets/images/foods/bun-bo-hue.webp",
+      "assets/images/foods/bun-bo-hue-2.webp"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Truyền thống",
+      "Phổ biến",
+      "Đường phố",
+      "Bữa sáng",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mì Quảng",
+    "vietnameseName": "Mì Quảng",
+    "region": "Miền Trung",
+    "province": "Quảng Nam",
+    "category": "Món mì",
+    "description": "Mì Quảng là món ăn đặc trưng của Quảng Nam với sợi mì bản lớn, nước dùng đậm đà, thịt, tôm và nhiều loại rau thơm cùng bánh tráng giòn.",
+    "ingredients": [
+      "Sợi mì Quảng",
+      "Tôm",
+      "Thịt heo",
+      "Trứng cút",
+      "Đậu phộng",
+      "Rau thơm",
+      "Bánh tráng"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Sơ chế và ướp nhân"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Rửa sạch thịt, tôm hoặc gà, cắt miếng vừa ăn.",
+          "Giã nhuyễn củ nén và nghệ tươi.",
+          "Ướp nhân với nước mắm, hạt nêm, tiêu, đường, một nửa phần nén nghệ băm nhỏ trong 20 phút cho thấm gia vị."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Xào nhân và nấu nước lèo"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Phi thơm phần củ nén nghệ còn lại với dầu màu điều.",
+          "Cho thịt, tôm hoặc gà đã ướp vào xào săn lại với lửa lớn cho ngấm màu đẹp.",
+          "Đổ nước hoặc nước hầm xương vào xào chung, lượng nước vừa phải để làm nước lèo xâm xấp.",
+          "Đun sôi, hớt bọt kỹ, nêm nếm lại vừa ăn rồi hạ nhỏ lửa cho nhân mềm thấm vị."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Trình bày và thưởng thức"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Xếp một lớp rau sống cắt nhỏ dưới đáy tô.",
+          "Cho lượng sợi mì vừa ăn lên trên rau.",
+          "Múc nhân và chan nước lèo xâm xấp mặt mì, không đầy ngập tô.",
+          "Rắc đậu phộng rang, thêm hành ngò và bẻ vụn bánh đa nướng ăn kèm."
+        ]
+      }
+    ],
+    "priceMin": 35000,
+    "priceMax": 60000,
+    "priceUnit": "tô",
+    "images": [
+      "assets/images/foods/mi-quang-quang-nam.jpg",
+      "assets/images/foods/mi-quang.webp",
+      "assets/images/foods/mi-quang-hoi-an.webp"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Truyền thống",
+      "Đặc sản",
+      "Đường phố",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Cơm tấm",
+    "vietnameseName": "Cơm tấm",
+    "region": "Miền Nam",
+    "province": "Thành phố Hồ Chí Minh",
+    "category": "Món cơm",
+    "description": "Cơm tấm là món ăn quen thuộc của miền Nam với hạt cơm tấm mềm, sườn nướng thơm, bì, chả và nước mắm chua ngọt.",
+    "ingredients": [
+      "Gạo tấm",
+      "Sườn heo",
+      "Bì",
+      "Chả trứng",
+      "Nước mắm",
+      "Đồ chua",
+      "Dưa leo"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Sơ chế và nấu cơm tấm"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Chọn gạo tấm thơm, vo nhẹ tay để không mất cám.",
+          "Ngâm gạo khoảng 20 đến 30 phút trước khi nấu giúp hạt cơm nở đều.",
+          "Cho gạo vào nồi, thêm nước theo tỷ lệ ít hơn cơm thường vì tấm rất nhanh mềm.",
+          "Bật nồi cơm điện hoặc đem hấp cách thủy khoảng 30 phút đến khi hạt cơm chín mềm, tơi xốp."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Làm sườn nướng, bì và chả"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Sườn cốt lết: Ướp với nước mắm, mật ong, tỏi băm, hành tím, nước cốt chanh và một ít dầu ăn trong 2 tiếng, sau đó nướng vàng thơm trên bếp than hoặc lò nướng.",
+          "Bì: Thịt heo thái sợi trộn đều với thính gạo và chút tỏi phi, gia vị cho vừa ăn.",
+          "Chả trứng: Trộn thịt xay, nấm mèo băm nhỏ, miến cắt ngắn, trứng gà, hành tím và gia vị rồi đem hấp chín."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Pha nước mắm và hoàn thành"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Pha nước mắm theo tỷ lệ 1 đường : 1 nước mắm : 1 nước lọc, đun sôi nhẹ để nguội rồi thêm tỏi ớt băm.",
+          "Xới cơm tấm ra đĩa, đặt sườn nướng, cắt miếng chả, thêm một nhúm bì.",
+          "Rưới mỡ hành lên mặt cơm, kèm đĩa đồ chua gồm dưa góp củ cải, cà rốt và chén nước mắm."
+        ]
+      }
+    ],
+    "priceMin": 35000,
+    "priceMax": 65000,
+    "priceUnit": "1 đĩa",
+    "images": [
+      "assets/images/foods/com-tam-3.jpg",
+      "assets/images/foods/com-tam.jpg",
+      "assets/images/foods/com-tam.webp"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Phổ biến",
+      "Đường phố",
+      "Bữa sáng",
+      "Bữa trưa",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Bánh xèo",
+    "vietnameseName": "Bánh xèo",
+    "region": "Miền Nam",
+    "province": "Thành phố Hồ Chí Minh",
+    "category": "Món bánh",
+    "description": "Bánh xèo là loại bánh chiên giòn với lớp vỏ vàng óng, bên trong thường có tôm, thịt và giá đỗ. Bánh được cuốn cùng rau sống và chấm nước mắm.",
+    "ingredients": [
+      "Bột gạo",
+      "Nước cốt dừa",
+      "Tôm",
+      "Thịt heo",
+      "Giá đỗ",
+      "Rau sống",
+      "Nước mắm"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Pha bột"
+      },
+      {
+        "type": "paragraph",
+        "text": "Trộn đều bột gạo, bột chiên giòn, bột nghệ, muối. Cho nước, nước cốt dừa, bia, trứng vịt đánh tan và hành lá vào khuấy mịn. Cho thêm ít dầu ăn vào hỗn hợp bột rồi để bột nghỉ khoảng 30 phút đến 1 giờ."
+      },
+      {
+        "type": "subheading",
+        "text": "Sơ chế nhân"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tôm và thịt ba chỉ rửa sạch. Ướp thịt tôm với chút muối, hạt nêm, hành tím băm trong 15 phút, sau đó xào sơ qua cho chín tới."
+      },
+      {
+        "type": "subheading",
+        "text": "Đổ bánh"
+      },
+      {
+        "type": "paragraph",
+        "text": "Làm nóng chảo chống dính với một ít dầu ăn. Múc một vá bột đổ vào chảo, nhanh tay xoay đều chảo để tạo lớp bột mỏng."
+      },
+      {
+        "type": "subheading",
+        "text": "Thêm nhân và chiên"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cho tôm, thịt, một ít đậu xanh và giá đỗ lên trên mặt bánh. Đậy nắp kín khoảng 2–3 phút cho giá chín, mở nắp và đun thêm một lúc cho đến khi viền bánh vàng giòn, tróc khỏi chảo thì gập đôi bánh lại."
+      }
+    ],
+    "priceMin": 50000,
+    "priceMax": 100000,
+    "priceUnit": "1 cái",
+    "images": [
+      "assets/images/foods/banh-xeo.jpg",
+      "assets/images/foods/banh-xeo.webp"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Truyền thống",
+      "Đường phố",
+      "Phổ biến"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Chè ba màu",
+    "vietnameseName": "Chè ba màu",
+    "region": "Miền Nam",
+    "province": "Thành phố Hồ Chí Minh",
+    "category": "Món tráng miệng",
+    "description": "Chè ba màu là món tráng miệng nhiều lớp với đậu xanh, đậu đỏ, thạch và nước cốt dừa. Món chè có vị ngọt béo và thường được dùng lạnh với đá.",
+    "ingredients": [
+      "Đậu xanh",
+      "Đậu đỏ",
+      "Thạch",
+      "Nước cốt dừa",
+      "Đường",
+      "Đá viên"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Làm thạch rau câu màu xanh"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Trộn 8g bột rau câu với 75g đường.",
+          "Đun sôi khoảng 1 lít nước lá dứa hoặc nước lọc pha thêm siro lá dứa, cho hỗn hợp rau câu vào khuấy đều trên lửa nhỏ khoảng 10 phút.",
+          "Đổ hỗn hợp ra khuôn, để đông rồi cắt thành hạt lựu."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Nấu đậu xanh màu vàng"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Ngâm đậu xanh khoảng 30 phút rồi rửa sạch.",
+          "Cho đậu vào nồi với 250ml nước và một chút muối, nấu đến khi đậu chín mềm.",
+          "Thêm đường và một ít nước cốt dừa, dùng vá tán nhuyễn cho hỗn hợp mịn rồi múc ra tô."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Nấu đậu đỏ màu đỏ"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Nếu dùng đậu đỏ khô, ngâm đậu qua đêm rồi rửa sạch.",
+          "Luộc đậu với nước và đường trên lửa nhỏ đến khi hạt đậu mềm, bùi và ngấm ngọt.",
+          "Có thể sử dụng đậu đỏ đóng hộp để tiết kiệm thời gian."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Làm nước cốt dừa"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Đun 400ml nước cốt dừa với một ít đường và muối.",
+          "Cho thêm một ít nước bột năng đã hòa loãng để tạo độ sánh nhẹ."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Hoàn thành"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Xếp lần lượt các lớp đậu đỏ, đậu xanh và thạch rau câu vào ly.",
+          "Thêm đá bào và chan nước cốt dừa lên trên rồi thưởng thức."
+        ]
+      }
+    ],
+    "priceMin": 20000,
+    "priceMax": 40000,
+    "priceUnit": "1 ly",
+    "images": [
+      "assets/images/foods/che-ba-mau.webp",
+      "assets/images/foods/che-ba-mau-2.jpg"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Đồ ngọt",
+      "Đường phố",
+      "Chay"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Bánh mì",
+    "vietnameseName": "Bánh mì",
+    "region": "Miền Nam",
+    "province": "Thành phố Hồ Chí Minh",
+    "category": "Món bánh",
+    "description": "Bánh mì Việt Nam với lớp vỏ giòn, nhân đa dạng và các loại rau thơm, đồ chua cùng nước sốt đậm đà.",
+    "ingredients": [
+      "Bánh mì",
+      "Pate",
+      "Thịt nguội",
+      "Chả lụa",
+      "Dưa leo",
+      "Đồ chua",
+      "Rau mùi",
+      "Nước sốt"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Làm vỏ bánh"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Trộn bột mì, nước, men nở và một chút muối, sau đó nhồi đều tay.",
+          "Ủ bột đến khi bột nở gấp đôi.",
+          "Tạo hình bánh dài, rạch một đường trên mặt và xịt một ít nước.",
+          "Nướng ở nhiệt độ khoảng 200°C trong 15–20 phút đến khi vỏ bánh vàng giòn."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Làm nhân và sốt"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Xay nhuyễn gan heo, hấp chín cùng tiêu và tỏi để làm pate.",
+          "Chuẩn bị bơ trứng gà hoặc nước sốt thịt băm tùy theo loại bánh mì.",
+          "Làm đồ chua từ củ cải trắng và cà rốt ngâm với hỗn hợp giấm và đường."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Hoàn thiện"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Cắt dọc ổ bánh mì nhưng không cắt rời hoàn toàn.",
+          "Phết pate và bơ lên mặt trong của bánh.",
+          "Thêm chả lụa, thịt nguội hoặc thịt nướng.",
+          "Cho đồ chua, dưa leo, rau mùi và ớt tùy thích.",
+          "Dùng bánh mì ngay khi hoàn thành để giữ được độ giòn của vỏ bánh."
+        ]
+      }
+    ],
+    "priceMin": 15000,
+    "priceMax": 30000,
+    "priceUnit": "1 ổ",
+    "images": [
+      "assets/images/foods/banh-mi-2.webp",
+      "assets/images/foods/banh-mi.webp",
+      "assets/images/foods/banh-mi-3.jpeg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Phổ biến",
+      "Đường phố",
+      "Bữa sáng",
+      "Truyền thống",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Cá kho tộ",
+    "vietnameseName": "Cá kho tộ",
+    "region": "Miền Nam",
+    "province": "Tiền Giang",
+    "category": "Món kho",
+    "description": "Món cá kho đậm đà trong nồi đất với màu nâu óng, vị mặn ngọt hài hòa và hương thơm đặc trưng.",
+    "ingredients": [
+      "Cá",
+      "Nước mắm",
+      "Đường",
+      "Tiêu",
+      "Hành tím",
+      "Tỏi",
+      "Ớt",
+      "Nước màu"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Sơ chế cá"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Làm sạch cá, cắt thành từng khúc vừa ăn.",
+          "Rửa cá với muối để loại bỏ nhớt và mùi tanh."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Ướp cá"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Trộn cá với nước mắm, đường, hành tỏi băm, tiêu và một chút dầu ăn.",
+          "Ướp cá ít nhất 30 phút để gia vị thấm đều."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Thắng nước màu"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Cho đường vào nồi đất và đun chảy đến khi chuyển sang màu cánh gián đẹp mắt."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Kho cá"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Xếp thịt ba chỉ và cá đã ướp vào nồi.",
+          "Thêm nước dừa tươi đến xấp mặt cá.",
+          "Đun sôi rồi hạ nhỏ lửa, kho liu riu khoảng 45–60 phút.",
+          "Kho đến khi nước dùng cạn sệt, cá thấm gia vị và có màu bóng đẹp thì tắt bếp."
+        ]
+      }
+    ],
+    "priceMin": 60000,
+    "priceMax": 120000,
+    "priceUnit": "1 nồi",
+    "images": [
+      "assets/images/foods/ca-kho-to-2.jpeg",
+      "assets/images/foods/ca-kho-to-3.jpeg",
+      "assets/images/foods/ca-kho-to.webp"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Truyền thống",
+      "Gia đình",
+      "Miền Tây",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Bánh chưng",
+    "vietnameseName": "Bánh chưng",
+    "region": "Việt Nam",
+    "province": "",
+    "category": "Món bánh",
+    "description": "Món bánh truyền thống không thể thiếu trong Tết Việt, được làm từ gạo nếp, đậu xanh và thịt lợn gói trong lá dong.",
+    "ingredients": [
+      "Gạo nếp",
+      "Đậu xanh",
+      "Thịt ba chỉ",
+      "Lá dong",
+      "Muối",
+      "Tiêu"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Xếp nguyên liệu"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Xếp lá dong vuông vắn, cho một lớp gạo nếp vào giữa.",
+          "Thêm đậu xanh và thịt heo vào giữa, sau đó phủ một lớp gạo nếp lên trên."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Gói và buộc lạt"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Gấp lá dong chắc tay để tạo hình bánh vuông vắn.",
+          "Dùng lạt buộc cố định bánh vừa phải, không buộc quá chặt để bánh có không gian nở khi luộc."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Luộc bánh"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Xếp bánh vào nồi, đổ nước ngập bánh và đun liên tục khoảng 10–12 tiếng.",
+          "Duy trì lửa ổn định và châm thêm nước sôi khi nước trong nồi cạn để bánh luôn được ngập nước."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Ép bánh"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Vớt bánh ra và rửa qua bằng nước lạnh để làm sạch phần nhớt bên ngoài.",
+          "Xếp bánh ra mâm rồi dùng vật nặng đè lên để ép bớt nước và giúp bánh chắc, dẻo hơn."
+        ]
+      }
+    ],
+    "priceMin": 60000,
+    "priceMax": 80000,
+    "priceUnit": "cái",
+    "images": [
+      "assets/images/foods/banh-chung.jpg",
+      "assets/images/foods/banh-chung-2.jpg",
+      "assets/images/foods/banh-chung-3.jpg"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Tết",
+      "Truyền thống",
+      "Phổ biến",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Hủ tiếu Mỹ Tho",
+    "vietnameseName": "Hủ tiếu Mỹ Tho",
+    "region": "Miền Nam",
+    "province": "Tiền Giang",
+    "category": "Món nước",
+    "description": "Món hủ tiếu nổi tiếng Mỹ Tho với sợi hủ tiếu dai, nước dùng trong ngọt và nhiều loại thịt, tôm.",
+    "ingredients": [
+      "Hủ tiếu",
+      "Xương heo",
+      "Tôm",
+      "Thịt heo",
+      "Gan",
+      "Trứng cút",
+      "Giá đỗ",
+      "Hành lá"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Chuẩn bị sợi hủ tiếu"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Dùng loại sợi hủ tiếu nhỏ, khô và dai.",
+          "Trụng sợi qua nước sôi đến khi vừa chín tới để giữ được độ dai giòn và không bị bở."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Nấu nước dùng"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Hầm kỹ xương ống heo cùng mía lau đập dập để tạo vị ngọt tự nhiên.",
+          "Thêm tôm khô, mực khô hoặc sá sùng đã nướng thơm vào nồi nước hầm để tăng độ đậm đà.",
+          "Hầm đến khi nước dùng trong và có vị ngọt thanh."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Chuẩn bị topping"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Chuẩn bị thịt heo bằm, thịt thắt hoặc xá xíu thái mỏng và tôm luộc.",
+          "Luộc trứng cút và các loại lòng heo như tim, gan, lưỡi và cật rồi thái thành miếng vừa ăn."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Hoàn thiện"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Cho sợi hủ tiếu đã trụng vào tô rồi xếp các loại topping lên trên.",
+          "Thêm giá đỗ, hẹ, cần tàu và xà lách.",
+          "Rắc thêm tép mỡ giòn và hành phi.",
+          "Chan nước dùng nóng vào tô và dùng kèm chén nước tương pha giấm đường."
+        ]
+      }
+    ],
+    "priceMin": 35000,
+    "priceMax": 50000,
+    "priceUnit": "tô",
+    "images": [
+      "assets/images/foods/hu-tieu-my-tho.webp",
+      "assets/images/foods/hu-tieu-mi-tho-3.jpg",
+      "assets/images/foods/hu-tieu-mi-tho-2.jpg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Đặc sản",
+      "Miền Tây"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Gỏi cuốn",
+    "vietnameseName": "Gỏi cuốn",
+    "region": "Miền Nam",
+    "province": "Hồ Chí Minh",
+    "category": "Món cuốn",
+    "description": "Món cuốn tươi mát với bánh tráng, tôm, thịt, bún và rau sống, dùng cùng nước chấm đậm đà.",
+    "ingredients": [
+      "Bánh tráng",
+      "Tôm",
+      "Thịt heo",
+      "Bún",
+      "Xà lách",
+      "Húng quế",
+      "Hẹ",
+      "Nước chấm"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Luộc nguyên liệu"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Luộc tôm tươi khoảng 3 phút cho chín, sau đó bóc vỏ, bỏ đầu và chẻ đôi dọc thân.",
+          "Luộc thịt ba chỉ với một chút muối cho vừa chín tới rồi thái lát mỏng.",
+          "Trụng sơ bún tươi qua nước nóng."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Sơ chế rau"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Rửa sạch xà lách, các loại rau thơm như húng quế, tía tô, kinh giới và lá hẹ."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Cách cuốn"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Nhúng bánh tráng qua nước cho mềm dẻo.",
+          "Xếp lần lượt xà lách, rau thơm, bún, thịt và tôm lên bánh tráng.",
+          "Có thể đặt phần tôm quay ra ngoài để tạo màu sắc đẹp mắt.",
+          "Thêm một cọng hẹ rồi cuộn chặt tay."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Pha nước chấm"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Có thể dùng tương đen trộn với bơ hoặc đậu phộng rang giã nhuyễn.",
+          "Ngoài ra, gỏi cuốn có thể ăn kèm nước mắm chua ngọt hoặc mắm nêm."
+        ]
+      }
+    ],
+    "priceMin": 5000,
+    "priceMax": 20000,
+    "priceUnit": "cuốn",
+    "images": [
+      "assets/images/foods/goi-cuon-2.jpeg",
+      "assets/images/foods/goi-cuon-3.jpg",
+      "assets/images/foods/goi-cuon.webp"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Phổ biến",
+      "Đường phố",
+      "Truyền thống",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Nem rán",
+    "vietnameseName": "Nem rán",
+    "region": "Việt Nam",
+    "province": "",
+    "category": "Món chiên",
+    "description": "Món nem rán truyền thống với lớp vỏ giòn, nhân thịt, miến, mộc nhĩ và rau củ đậm đà.",
+    "ingredients": [
+      "Bánh đa nem",
+      "Thịt heo xay",
+      "Miến",
+      "Mộc nhĩ",
+      "Cà rốt",
+      "Hành",
+      "Trứng",
+      "Nước mắm"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Chuẩn bị nhân"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Trộn thịt lợn nạc vai băm hoặc xay với miến ngâm mềm thái nhỏ, mộc nhĩ, nấm hương, cà rốt hoặc su hào, hành lá và trứng gà.",
+          "Nêm muối, hạt tiêu và nước mắm rồi trộn đều cho nhân thấm gia vị."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Gói nem"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Trải bánh đa nem ra mâm, làm mềm bánh rồi cho một lượng nhân vừa phải vào.",
+          "Gấp hai mép bánh lại và cuộn tròn nem cho chắc tay."
+        ]
+      },
+      {
+        "type": "subheading",
+        "text": "Rán nem"
+      },
+      {
+        "type": "list",
+        "style": "disc",
+        "items": [
+          "Đun nóng dầu trong chảo rồi cho nem vào rán với lửa vừa.",
+          "Trở đều đến khi lớp vỏ vàng giòn thì vớt ra để ráo dầu."
+        ]
+      }
+    ],
+    "priceMin": 3000,
+    "priceMax": 6000,
+    "priceUnit": "cái",
+    "images": [
+      "assets/images/foods/nem-ran-3.jpg",
+      "assets/images/foods/nem-ran-2.jpg",
+      "assets/images/foods/nem-ran.webp"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Truyền thống",
+      "Phổ biến",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Bò lá lốt",
+    "vietnameseName": "Bò lá lốt",
+    "region": "Miền Nam",
+    "province": "Hồ Chí Minh",
+    "category": "Món nướng",
+    "description": "Món bò cuốn lá lốt nướng thơm lừng, thịt bò đậm đà hòa quyện với mùi đặc trưng của lá lốt.",
+    "ingredients": [
+      "Thịt bò xay",
+      "Lá lốt",
+      "Mỡ heo",
+      "Hành tím",
+      "Tỏi",
+      "Tiêu",
+      "Nước mắm"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Sơ chế & ướp thịt"
+      },
+      {
+        "type": "paragraph",
+        "text": "Thịt bò băm nhuyễn trộn cùng ít mỡ heo hoặc mỡ chài, hành, tỏi, sả băm, tiêu, hạt nêm và nước mắm. Ướp lạnh khoảng 60 phút cho thịt thấm đều gia vị."
+      },
+      {
+        "type": "subheading",
+        "text": "Cuốn lá lốt"
+      },
+      {
+        "type": "paragraph",
+        "text": "Chọn lá lốt bánh tẻ, không quá già hoặc quá non. Trải mặt gân xanh ra ngoài, đặt một muỗng nhỏ thịt vào giữa lá rồi cuộn tròn, cuốn chặt tay."
+      },
+      {
+        "type": "subheading",
+        "text": "Nướng"
+      },
+      {
+        "type": "paragraph",
+        "text": "Xếp bò cuốn lá lốt lên vỉ và nướng trên bếp than hồng cho đến khi lá lốt xém thơm, phần mỡ trong nhân tươm ra và thấm đều. Có thể rưới thêm mỡ hành và rắc đậu phộng rang."
+      },
+      {
+        "type": "subheading",
+        "text": "Thưởng thức"
+      },
+      {
+        "type": "paragraph",
+        "text": "Bò lá lốt thường được ăn kèm bánh tráng, bún tươi, rau sống các loại và chấm cùng mắm nêm hoặc nước mắm chua ngọt."
+      }
+    ],
+    "priceMin": 40000,
+    "priceMax": 70000,
+    "priceUnit": "phần",
+    "images": [
+      "assets/images/foods/bo-la-lot-1.jpg",
+      "assets/images/foods/bo-la-lot-2.jpg",
+      "assets/images/foods/bo-la-lot-3.jpg"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Đường phố",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Bún đậu mắm tôm",
+    "vietnameseName": "Bún đậu mắm tôm",
+    "region": "Miền Bắc",
+    "province": "Hà Nội",
+    "category": "Món bún",
+    "description": "Món ăn gồm bún lá, đậu hũ chiên giòn, thịt luộc và các loại chả, dùng kèm mắm tôm pha đậm đà.",
+    "ingredients": [
+      "Bún lá",
+      "Đậu hũ",
+      "Thịt heo",
+      "Chả cốm",
+      "Nem chua",
+      "Rau sống",
+      "Mắm tôm"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Chiên đậu hũ"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cắt đậu hũ thành miếng nhỏ, rán ngập dầu hoặc áp chảo đến khi lớp vỏ bên ngoài vàng giòn, bên trong vẫn mềm béo."
+      },
+      {
+        "type": "subheading",
+        "text": "Chuẩn bị thịt và chả"
+      },
+      {
+        "type": "paragraph",
+        "text": "Luộc chín thịt chân giò rồi thái lát mỏng. Rán chả cốm đến khi vàng thơm. Có thể ăn kèm thêm nem chua rán, lòng giòn hoặc dồi sụn tùy thích."
+      },
+      {
+        "type": "subheading",
+        "text": "Chuẩn bị bún"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dùng bún lá cắt thành từng miếng vừa ăn hoặc sử dụng bún tươi."
+      },
+      {
+        "type": "subheading",
+        "text": "Chuẩn bị rau ăn kèm"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rửa sạch rau kinh giới, tía tô, húng quế, dưa leo, chuối xanh và khế chua, sau đó để ráo."
+      },
+      {
+        "type": "subheading",
+        "text": "Pha mắm tôm"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cho mắm tôm vào bát, thêm đường, chanh hoặc tắc, tỏi ớt băm rồi dùng đũa hoặc thìa đánh bông đến khi nổi bọt trắng. Rưới thêm một chút dầu rán đậu nóng để tăng hương thơm."
+      }
+    ],
+    "priceMin": 60000,
+    "priceMax": 100000,
+    "priceUnit": "mẹt",
+    "images": [
+      "assets/images/foods/bun-dau-mam-tom-3.webp",
+      "assets/images/foods/bun-dau-mam-tom-2.jpg",
+      "assets/images/foods/bun-dau-mam-tom.jpg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Đường phố",
+      "Đặc sản",
+      "Phổ biến",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Canh chua",
+    "vietnameseName": "Canh chua",
+    "region": "Miền Nam",
+    "province": "An Giang",
+    "category": "Món canh",
+    "description": "Món canh có vị chua thanh, thường nấu với cá, me, thơm, cà chua và các loại rau đặc trưng.",
+    "ingredients": [
+      "Cá",
+      "Me",
+      "Dứa",
+      "Cà chua",
+      "Đậu bắp",
+      "Giá đỗ",
+      "Bạc hà",
+      "Rau om"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Nấu nước me"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dầm me với nước ấm rồi lọc lấy nước cốt. Đun sôi nước, cho nước me vào cùng muối, đường và nước mắm, nêm đến khi có vị chua ngọt hài hòa."
+      },
+      {
+        "type": "subheading",
+        "text": "Nấu cá"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cho cá vào nồi nước dùng và nấu đến khi cá vừa chín tới, sau đó nhẹ nhàng vớt cá ra để tránh bị nát."
+      },
+      {
+        "type": "subheading",
+        "text": "Nấu rau củ"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cho dứa, cà chua, đậu bắp và bạc hà vào nồi nước sôi, nấu đến khi rau củ vừa chín tới."
+      },
+      {
+        "type": "subheading",
+        "text": "Hoàn thành"
+      },
+      {
+        "type": "paragraph",
+        "text": "Thêm giá đỗ và cho cá trở lại nồi. Rắc rau ngổ và ngò gai lên trên rồi tắt bếp. Có thể thêm tỏi phi khi thưởng thức."
+      }
+    ],
+    "priceMin": 35000,
+    "priceMax": 70000,
+    "priceUnit": "tô",
+    "images": [
+      "assets/images/foods/canh-chua-3.jpg",
+      "assets/images/foods/canh-chua-2.jpg",
+      "assets/images/foods/canh-chua.jpg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Gia đình",
+      "Truyền thống",
+      "Miền Tây"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Bánh tráng nướng",
+    "vietnameseName": "Bánh tráng nướng",
+    "region": "Miền Trung",
+    "province": "Đà Lạt",
+    "category": "Món ăn vặt",
+    "description": "Món ăn vặt giòn thơm với bánh tráng nướng trên than, phủ trứng, hành lá, xúc xích và nhiều loại topping.",
+    "ingredients": [
+      "Bánh tráng",
+      "Trứng cút",
+      "Hành lá",
+      "Xúc xích",
+      "Khô bò",
+      "Ruốc",
+      "Sa tế",
+      "Mayonnaise"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Chuẩn bị dụng cụ"
+      },
+      {
+        "type": "paragraph",
+        "text": "Chuẩn bị bếp than hồng và vỉ nướng nhỏ."
+      },
+      {
+        "type": "subheading",
+        "text": "Nguyên liệu chính"
+      },
+      {
+        "type": "paragraph",
+        "text": "Chuẩn bị bánh tráng mỏng, trứng cút hoặc trứng gà và mỡ hành."
+      },
+      {
+        "type": "subheading",
+        "text": "Topping"
+      },
+      {
+        "type": "paragraph",
+        "text": "Chuẩn bị các loại topping như thịt băm hoặc khô bò, xúc xích, tép khô, phô mai và hành phi."
+      },
+      {
+        "type": "subheading",
+        "text": "Gia vị"
+      },
+      {
+        "type": "paragraph",
+        "text": "Chuẩn bị tương ớt, sốt mayonnaise hoặc sốt me chua ngọt tùy khẩu vị."
+      },
+      {
+        "type": "subheading",
+        "text": "Nướng bánh"
+      },
+      {
+        "type": "paragraph",
+        "text": "Đặt bánh tráng lên vỉ than, đập trứng và dùng thìa tán đều khắp mặt bánh cùng mỡ hành. Tiếp tục thêm các loại topping và sốt, xoay đều vỉ nướng liên tục trên lửa vừa cho đến khi vỏ bánh giòn tan và dậy mùi thơm."
+      }
+    ],
+    "priceMin": 15000,
+    "priceMax": 30000,
+    "priceUnit": "cái",
+    "images": [
+      "assets/images/foods/banh-trang-nuong.jpg",
+      "assets/images/foods/banh-trang-nuong-2.jpg",
+      "assets/images/foods/banh-trang-nuong-3.jpg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Đường phố",
+      "Phổ biến",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Cháo lòng",
+    "vietnameseName": "Cháo lòng",
+    "region": "Việt Nam",
+    "province": "",
+    "category": "Món cháo",
+    "description": "Món cháo nóng nấu từ gạo và nước dùng xương, ăn kèm lòng heo, huyết và các loại rau thơm.",
+    "ingredients": [
+      "Gạo",
+      "Xương heo",
+      "Lòng heo",
+      "Huyết heo",
+      "Gan heo",
+      "Hành lá",
+      "Tiêu",
+      "Rau thơm"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Sơ chế lòng"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rửa sạch nội tạng như tim, gan, phèo, dạ dày và dồi bằng muối cùng chanh hoặc giấm, sau đó luộc chín tới để giữ độ giòn và vị ngọt tự nhiên."
+      },
+      {
+        "type": "subheading",
+        "text": "Nấu cháo"
+      },
+      {
+        "type": "paragraph",
+        "text": "Rang vàng gạo tẻ, có thể trộn thêm một ít gạo nếp, để hạt gạo thơm và nở bung khi nấu."
+      },
+      {
+        "type": "subheading",
+        "text": "Nấu nước dùng"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dùng nước luộc lòng và ninh thêm xương heo để tạo vị ngọt đậm đà tự nhiên cho cháo."
+      },
+      {
+        "type": "subheading",
+        "text": "Hoàn thành"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nêm nếm gia vị vừa ăn, có thể cho thêm huyết heo. Múc cháo ra tô, thêm các phần lòng đã thái mỏng, hành lá và tiêu xay rồi thưởng thức."
+      }
+    ],
+    "priceMin": 25000,
+    "priceMax": 40000,
+    "priceUnit": "tô",
+    "images": [
+      "assets/images/foods/chao-long-3.webp",
+      "assets/images/foods/chao-long-2.jpg",
+      "assets/images/foods/chao-long.jpg"
+    ],
+    "spicyLevel": 0,
+    "tags": [
+      "Truyền thống",
+      "Phổ biến",
+      "Bữa sáng"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Bún riêu",
+    "vietnameseName": "Bún riêu",
+    "region": "Miền Bắc",
+    "province": "Hà Nội",
+    "category": "Món bún",
+    "description": "Món bún nước với riêu cua, cà chua và nước dùng có vị chua thanh, thường ăn kèm rau sống.",
+    "ingredients": [
+      "Bún",
+      "Cua đồng",
+      "Cà chua",
+      "Đậu hũ",
+      "Mắm tôm",
+      "Hành lá",
+      "Rau sống",
+      "Giấm bỗng"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Sơ chế cua"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cua đồng bóc mai, lấy gạch để riêng. Thịt cua giã nhuyễn hoặc xay nhuyễn rồi lọc lấy nước cốt."
+      },
+      {
+        "type": "subheading",
+        "text": "Làm riêu cua"
+      },
+      {
+        "type": "paragraph",
+        "text": "Đun nước cốt cua trên lửa vừa để thịt cua kết đông thành từng mảng riêu nổi lên trên, sau đó vớt ra để riêng. Phi gạch cua với hành và mỡ rồi chưng đến khi có màu vàng đỏ đẹp mắt."
+      },
+      {
+        "type": "subheading",
+        "text": "Nấu nước dùng"
+      },
+      {
+        "type": "paragraph",
+        "text": "Phi thơm hành, cho cà chua vào xào tạo màu và vị chua nhẹ. Thêm giấm bỗng theo kiểu miền Bắc hoặc me, nước cốt chanh theo kiểu miền Nam, sau đó nêm mắm tôm và các gia vị cho vừa vị."
+      },
+      {
+        "type": "subheading",
+        "text": "Trình bày"
+      },
+      {
+        "type": "paragraph",
+        "text": "Chan nước dùng nóng lên bún tươi, thêm riêu cua, gạch cua chưng, đậu hũ chiên và cà chua. Ăn kèm các loại rau sống như bắp chuối bào và rau muống chẻ."
+      }
+    ],
+    "priceMin": 25000,
+    "priceMax": 50000,
+    "priceUnit": "tô",
+    "images": [
+      "assets/images/foods/bun-rieu.webp",
+      "assets/images/foods/bun-rieu-2.webp",
+      "assets/images/foods/bun-rieu-3.webp"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Truyền thống",
+      "Phổ biến",
+      "Bữa sáng",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Bún thịt nướng",
+    "vietnameseName": "Bún thịt nướng",
+    "region": "Miền Nam",
+    "province": "Hồ Chí Minh",
+    "category": "Món bún",
+    "description": "Món bún với thịt heo nướng thơm, rau sống, đồ chua, đậu phộng và nước mắm chua ngọt.",
+    "ingredients": [
+      "Bún",
+      "Thịt heo",
+      "Sả",
+      "Rau sống",
+      "Đồ chua",
+      "Đậu phộng",
+      "Hành lá",
+      "Nước mắm"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Sơ chế & ướp thịt"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dùng thịt nạc vai hoặc ba chỉ có lẫn mỡ để thịt không bị khô. Thái mỏng thịt, ướp với sả băm, hành tím, tỏi, nước mắm, đường, dầu hào hoặc mật ong trong ít nhất 1 tiếng."
+      },
+      {
+        "type": "subheading",
+        "text": "Nướng thịt"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kẹp thịt vào vỉ hoặc xiên que rồi nướng trên bếp than hồng cho đến khi thịt chín vàng, xém cạnh và dậy mùi thơm."
+      },
+      {
+        "type": "subheading",
+        "text": "Pha nước chấm"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pha nước mắm chua ngọt từ nước mắm, đường, chanh hoặc giấm, tỏi và ớt băm."
+      },
+      {
+        "type": "subheading",
+        "text": "Trình bày"
+      },
+      {
+        "type": "paragraph",
+        "text": "Cho bún tươi vào tô hoặc đĩa, xếp rau sống, đồ chua, thịt nướng và chả giò lên trên. Rắc thêm mỡ hành và đậu phộng rang. Khi ăn, rưới nước mắm chua ngọt rồi trộn đều."
+      }
+    ],
+    "priceMin": 25000,
+    "priceMax": 50000,
+    "priceUnit": "tô",
+    "images": [
+      "assets/images/foods/bun-thit-nuong.webp",
+      "assets/images/foods/bun-thit-nuong-2.png",
+      "assets/images/foods/bun-thit-nuong-3.jpg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Đường phố",
+      "Phổ biến",
+      "Bữa sáng",
+      "Nên thử"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Bò kho",
+    "vietnameseName": "Bò kho",
+    "region": "Miền Nam",
+    "province": "Hồ Chí Minh",
+    "category": "Món hầm",
+    "description": "Món bò hầm đậm đà với thịt bò mềm, cà rốt và các loại gia vị thơm như quế, hồi và sả.",
+    "ingredients": [
+      "Thịt bò",
+      "Cà rốt",
+      "Sả",
+      "Quế",
+      "Hoa hồi",
+      "Gừng",
+      "Hành tây",
+      "Nước dùng"
+    ],
+    "cookingMethod": [
+      {
+        "type": "subheading",
+        "text": "Sơ chế và ướp"
+      },
+      {
+        "type": "paragraph",
+        "text": "Thịt bò cắt thành khối vuông, ướp cùng gia vị bò kho, sả băm, tỏi, hành, ngũ vị hương và một ít dầu điều trong khoảng 30 phút."
+      },
+      {
+        "type": "subheading",
+        "text": "Xào săn"
+      },
+      {
+        "type": "paragraph",
+        "text": "Phi thơm hành tỏi và sả, cho thịt bò vào xào săn để thịt thấm đều gia vị."
+      },
+      {
+        "type": "subheading",
+        "text": "Hầm mềm"
+      },
+      {
+        "type": "paragraph",
+        "text": "Đổ nước hoặc nước dừa tươi ngập mặt thịt, thêm sả cây đập dập, hoa hồi và quế rồi hầm trên lửa nhỏ cho đến khi thịt mềm."
+      },
+      {
+        "type": "subheading",
+        "text": "Hoàn thiện"
+      },
+      {
+        "type": "paragraph",
+        "text": "Khi thịt gần mềm, cho cà rốt cắt khúc vào hầm chung đến khi chín mềm. Nêm nếm lại cho vừa ăn và điều chỉnh độ sánh vừa phải. Bò kho thường được ăn kèm với bánh mì, hủ tiếu hoặc mì tươi."
+      }
+    ],
+    "priceMin": 45000,
+    "priceMax": 80000,
+    "priceUnit": "tô",
+    "images": [
+      "assets/images/foods/bo-kho.jpg",
+      "assets/images/foods/bo-kho-2.webp",
+      "assets/images/foods/bo-kho-3.jpg"
+    ],
+    "spicyLevel": 1,
+    "tags": [
+      "Bữa sáng",
+      "Truyền thống",
+      "Nên thử"
+    ]
+  }
+]
