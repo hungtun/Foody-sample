@@ -1,11 +1,12 @@
 /**
  * Add New Food — form validation + Google Apps Script submit
- *
- * Replace GAS_WEB_APP_URL with your deployed Apps Script Web App URL.
- * Until then, submissions are simulated locally for scaffold demos.
  */
 
-const GAS_WEB_APP_URL = ""; // e.g. "https://script.google.com/macros/s/XXXX/exec"
+const GAS_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbz3DFOjRS7lKzhfwO7Vgk2v0VkX8_Yhd_gED_vIAXvTMHPlckIIQD8hCPXkIq3Ljb4F/exec";
+
+function tAdd(key) {
+  return tUI("addFood", key);
+}
 
 function setMessage(text, isError = false) {
   const el = document.getElementById("form-message");
@@ -14,21 +15,20 @@ function setMessage(text, isError = false) {
 }
 
 function validateForm(data) {
-  const required = ["foodName", "vietnameseName", "province", "region", "category", "description"];
+  const required = ["foodName", "vietnameseName", "province", "region", "description"];
   for (const key of required) {
     if (!String(data[key] || "").trim()) {
-      return `${key} is required.`;
+      return tAdd("required").replace("{field}", tAdd(key));
     }
   }
   if (data.description.trim().length < 20) {
-    return "Description should be at least 20 characters.";
+    return tAdd("descMin");
   }
   return null;
 }
 
 async function submitToSheets(payload) {
   if (!GAS_WEB_APP_URL) {
-    // Scaffold fallback: store pending suggestions in localStorage
     const pending = JSON.parse(localStorage.getItem("pendingFoodSuggestions") || "[]");
     pending.push({ ...payload, status: "Pending", timestamp: new Date().toISOString() });
     localStorage.setItem("pendingFoodSuggestions", JSON.stringify(pending));
@@ -42,11 +42,13 @@ async function submitToSheets(payload) {
     body: JSON.stringify(payload),
   });
 
-  // no-cors cannot read body; treat as fired
   return { ok: true, response };
 }
 
-function initAddFood() {
+async function initAddFood() {
+  await loadUI();
+  applyUISection("addFood");
+
   const form = document.getElementById("add-food-form");
   const desc = document.getElementById("description");
   const count = document.getElementById("desc-count");
@@ -68,20 +70,20 @@ function initAddFood() {
 
     const btn = document.getElementById("submit-btn");
     btn.disabled = true;
-    setMessage("Submitting…");
+    setMessage(tAdd("submitting"));
 
     try {
       const result = await submitToSheets(data);
       if (result.simulated) {
-        setMessage("Saved locally (Pending). Add your Google Apps Script URL in js/add-food.js to send to Sheets.");
+        setMessage(tAdd("simulated"));
       } else {
-        setMessage("Submitted successfully. Status: Pending review.");
+        setMessage(tAdd("submitted"));
       }
       form.reset();
       count.textContent = "0";
     } catch (err) {
       console.error(err);
-      setMessage("Submit failed. Please try again.", true);
+      setMessage(tAdd("failed"), true);
     } finally {
       btn.disabled = false;
     }

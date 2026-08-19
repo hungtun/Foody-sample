@@ -2,7 +2,13 @@
  * Saved Foods — localStorage IDs → foods.json
  */
 
+function tSaved(key) {
+  return tUI("saved", key);
+}
+
 async function initSaved() {
+  await loadUI();
+  applyUISection("saved");
   const grid = document.getElementById("saved-grid");
 
   try {
@@ -15,8 +21,8 @@ async function initSaved() {
     if (!saved.length) {
       grid.innerHTML = `
         <div class="empty-state col-span-full">
-          <p>No saved foods yet.</p>
-          <a href="explore.html" class="btn btn--primary mt-4 inline-flex">Explore foods</a>
+          <p>${tSaved("empty")}</p>
+          <a href="index.html#regions" class="btn btn--primary mt-4 inline-flex">${tSaved("explore")}</a>
         </div>`;
       return;
     }
@@ -33,7 +39,7 @@ async function initSaved() {
     });
   } catch (err) {
     console.error(err);
-    grid.innerHTML = `<div class="empty-state">Could not load saved foods.</div>`;
+    grid.innerHTML = `<div class="empty-state">${tSaved("loadError")}</div>`;
   }
 }
 

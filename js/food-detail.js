@@ -2,6 +2,10 @@
  * Food Detail — gallery, lightbox, save, recently viewed
  */
 
+function tFood(key) {
+  return tUI("foodDetail", key);
+}
+
 function showToast(message) {
   const el = document.getElementById("toast");
   if (!el) return;
@@ -12,7 +16,7 @@ function showToast(message) {
 
 function renderCookingMethod(method) {
   if (!Array.isArray(method) || !method.length) {
-    return '<p class="muted max-w-3xl">No cooking guide available.</p>';
+    return `<p class="muted max-w-3xl">${tFood("noCooking")}</p>`;
   }
 
   return method
@@ -48,12 +52,18 @@ function closeLightbox() {
   if (box) box.classList.remove("is-open");
 }
 
+function emptyState(message) {
+  return `<div class="empty-state"><p>${message}</p><a href="index.html#regions" class="btn btn--primary mt-4">${tFood("explore")}</a></div>`;
+}
+
 async function initFoodDetail() {
+  await loadUI();
+  document.documentElement.lang = getDataLang();
   const mount = document.getElementById("food-detail");
   const id = getQueryParam("id");
 
   if (!id) {
-    mount.innerHTML = `<div class="empty-state"><p>No food selected.</p><a href="explore.html" class="btn btn--primary mt-4">Explore foods</a></div>`;
+    mount.innerHTML = emptyState(tFood("noFood"));
     return;
   }
 
@@ -62,11 +72,11 @@ async function initFoodDetail() {
     const food = findFoodById(foods, id);
 
     if (!food) {
-      mount.innerHTML = `<div class="empty-state"><p>Food not found.</p><a href="explore.html" class="btn btn--primary mt-4">Explore foods</a></div>`;
+      mount.innerHTML = emptyState(tFood("notFound"));
       return;
     }
 
-    document.title = `${food.name} · Vietnam Food Guide`;
+    document.title = `${food.name} · ${tFood("siteName")}`;
     addRecentlyViewed(food.id);
 
     const images = food.images?.length
@@ -76,7 +86,9 @@ async function initFoodDetail() {
     const saved = isFoodSaved(food.id);
     const tags = (food.tags || []).map((t) => `<span class="tag">${t}</span>`).join("");
     const ingredients = (food.ingredients || []).map((i) => `<li>${i}</li>`).join("");
-    const ratingText = Number.isFinite(Number(food.rating)) ? `${food.rating} / 5` : "Not rated yet";
+    const ratingText = Number.isFinite(Number(food.rating))
+      ? `${food.rating} / 5`
+      : tFood("notRated");
     const thumbs = images
       .map(
         (src, i) => `
@@ -100,22 +112,22 @@ async function initFoodDetail() {
           <h1 class="text-4xl mb-1">${food.name}</h1>
           <p class="text-xl muted mb-4">${food.vietnameseName}</p>
           <p class="mb-4">${food.description}</p>
-          <p class="mb-2"><strong>Price:</strong> ${formatPrice(food.priceMin, food.priceMax)}</p>
-          <p class="mb-4"><strong>Rating:</strong> ${ratingText}</p>
+          <p class="mb-2"><strong>${tFood("price")}:</strong> ${formatPrice(food.priceMin, food.priceMax)}</p>
+          <p class="mb-4"><strong>${tFood("rating")}:</strong> ${ratingText}</p>
           <div class="mb-5">${tags}</div>
           <button type="button" class="btn ${saved ? "btn--ghost" : "btn--primary"}" id="btn-save">
-            ${saved ? "♥ Saved" : "♡ Save Food"}
+            ${saved ? tFood("saved") : tFood("saveFood")}
           </button>
         </div>
       </div>
 
       <section class="mb-8">
-        <h2 class="text-2xl mb-3">Ingredients</h2>
+        <h2 class="text-2xl mb-3">${tFood("ingredients")}</h2>
         <ul class="list-disc pl-5 muted space-y-1">${ingredients}</ul>
       </section>
 
       <section>
-        <h2 class="text-2xl mb-3">Cooking Method</h2>
+        <h2 class="text-2xl mb-3">${tFood("cooking")}</h2>
         <div class="muted max-w-3xl">${renderCookingMethod(food.cookingMethod)}</div>
       </section>
     `;
@@ -141,13 +153,13 @@ async function initFoodDetail() {
 
     document.getElementById("btn-save")?.addEventListener("click", (e) => {
       const nowSaved = toggleSavedFood(food.id);
-      e.currentTarget.textContent = nowSaved ? "♥ Saved" : "♡ Save Food";
+      e.currentTarget.textContent = nowSaved ? tFood("saved") : tFood("saveFood");
       e.currentTarget.className = `btn ${nowSaved ? "btn--ghost" : "btn--primary"}`;
-      showToast(nowSaved ? "Added to Saved Foods" : "Removed from Saved Foods");
+      showToast(nowSaved ? tFood("added") : tFood("removed"));
     });
   } catch (err) {
     console.error(err);
-    mount.innerHTML = `<div class="empty-state">Could not load food data.</div>`;
+    mount.innerHTML = `<div class="empty-state">${tFood("loadError")}</div>`;
   }
 }
 

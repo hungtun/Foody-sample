@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Suggest a Food · Vietnam Food Guide</title>
+  <title>Suggest a Food · Taste Vietnam</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="css/styles.css" />
 </head>
@@ -12,58 +12,54 @@
 
   <main class="page">
     <div class="page-hero">
-      <h1>Suggest a New Food</h1>
-      <p>Submit a dish for review. Entries go to Google Sheets via Apps Script (Pending → Approved / Rejected).</p>
+      <h1 data-trans="heroTitle">Suggest a New Food</h1>
+      <p data-trans="heroText">Submit a dish for review. Category, ingredients, and images are filled in by the admin after research. Entries go to Google Sheets via Apps Script (Pending → Approved / Rejected).</p>
     </div>
 
     <form class="form-stack" id="add-food-form" novalidate>
       <div class="form-field">
-        <label for="foodName">Food Name *</label>
+        <label for="foodName"><span data-trans="foodName">Food Name</span> *</label>
         <input id="foodName" name="foodName" required />
       </div>
       <div class="form-field">
-        <label for="vietnameseName">Vietnamese Name *</label>
+        <label for="vietnameseName"><span data-trans="vietnameseName">Vietnamese Name</span> *</label>
         <input id="vietnameseName" name="vietnameseName" required />
       </div>
       <div class="grid sm:grid-cols-2 gap-4">
         <div class="form-field">
-          <label for="province">Province *</label>
+          <label for="province"><span data-trans="province">Province</span> *</label>
           <input id="province" name="province" required />
         </div>
         <div class="form-field">
-          <label for="region">Region *</label>
-          <select id="region" name="region" required>
-            <option value="">Select…</option>
-            <option value="North">North</option>
-            <option value="Central">Central</option>
-            <option value="South">South</option>
-          </select>
+          <span class="form-legend"><span data-trans="region">Region</span> *</span>
+          <div class="region-radios" role="radiogroup" aria-label="Region">
+            <label class="region-radio">
+              <input type="radio" name="region" value="North" required />
+              <span data-trans="north">North</span>
+            </label>
+            <label class="region-radio">
+              <input type="radio" name="region" value="Central" />
+              <span data-trans="central">Central</span>
+            </label>
+            <label class="region-radio">
+              <input type="radio" name="region" value="South" />
+              <span data-trans="south">South</span>
+            </label>
+          </div>
         </div>
       </div>
       <div class="form-field">
-        <label for="category">Category *</label>
-        <input id="category" name="category" placeholder="Noodle, Rice, Drink…" required />
-      </div>
-      <div class="form-field">
-        <label for="description">Description *</label>
+        <label for="description"><span data-trans="description">Description</span> *</label>
         <textarea id="description" name="description" required></textarea>
-        <p class="muted text-sm mt-1"><span id="desc-count">0</span> characters</p>
+        <p class="muted text-sm mt-1"><span id="desc-count">0</span> <span data-trans="characters">characters</span></p>
       </div>
       <div class="form-field">
-        <label for="ingredients">Ingredients</label>
-        <textarea id="ingredients" name="ingredients" placeholder="Comma-separated"></textarea>
-      </div>
-      <div class="form-field">
-        <label for="price">Price (VND range)</label>
+        <label for="price" data-trans="price">Price (VND range)</label>
         <input id="price" name="price" placeholder="30000 - 60000" />
-      </div>
-      <div class="form-field">
-        <label for="image">Image URL</label>
-        <input id="image" name="image" type="url" placeholder="https://…" />
       </div>
 
       <p class="muted text-sm" id="form-message" role="status"></p>
-      <button type="submit" class="btn btn--primary" id="submit-btn">Submit Food</button>
+      <button type="submit" class="btn btn--primary" id="submit-btn" data-trans="submit">Submit Food</button>
     </form>
   </main>
 

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Explore All Dishes | Taste Vietnam</title>
+  <link rel="icon" type="image/png" href="assets/images/logo1.png" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div id="site-header"></div>
+  <main>
+    <section class="explore-hero">
+      <div class="explore-hero-content">
+        <p class="hero-tagline" data-trans="exploreGlobal.tagline"></p>
+        <h1 data-trans="exploreGlobal.title"></h1>
+        <p class="hero-desc" data-trans="exploreGlobal.desc"></p>
+        <div class="search-box-wrapper">
+          <span class="search-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="6.5"></circle>
+              <path d="M16 16l5 5"></path>
+            </svg>
+          </span>
+          <input type="text" id="searchInput" data-placeholder-trans="exploreGlobal.searchPlaceholder" autocomplete="off">
+          <button id="clearSearchBtn" class="clear-search-btn" type="button">✖</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="filter-section">
+      <div class="filter-container">
+        <div class="region-tabs" id="regionTabs"></div>
+        <div class="filter-dropdowns">
+          <div class="custom-select" id="citySelect">
+            <div class="select-trigger">
+              <span class="selected-text"></span>
+              <span class="arrow">▾</span>
+            </div>
+            <div class="select-options"></div>
+            <input type="hidden" id="cityFilter" value="all">
+          </div>
+          <div class="custom-select" id="categorySelect">
+            <div class="select-trigger">
+              <span class="selected-text"></span>
+              <span class="arrow">▾</span>
+            </div>
+            <div class="select-options"></div>
+            <input type="hidden" id="categoryFilter" value="all">
+          </div>
+          <button id="resetFilterBtn" class="reset-btn" type="button" data-trans="exploreGlobal.reset"></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore-results section">
+      <div class="results-header">
+        <p id="resultCount" class="result-count"></p>
+      </div>
+      <div class="explore-food-grid" id="foodGrid"></div>
+      <div class="empty-state" id="emptyState">
+        <span class="empty-icon">🍜</span>
+        <h3 data-trans="exploreGlobal.emptyTitle"></h3>
+        <p data-trans="exploreGlobal.emptyText"></p>
+        <button id="emptyResetBtn" class="primary-btn" type="button" data-trans="exploreGlobal.emptyReset"></button>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/storage.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/explore-global.js"></script>
+</body>
+</html>

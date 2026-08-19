@@ -3,31 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Explore Foods · Vietnam Food Guide</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Explore | Taste Vietnam</title>
+  <link rel="icon" type="image/png" href="assets/images/logo1.png" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <div id="site-header"></div>
-
-  <main class="page">
-    <div class="page-hero">
-      <h1>Explore Vietnamese Foods</h1>
-      <p>Search the full catalog by English or Vietnamese name — no need to browse by province first.</p>
-    </div>
-
-    <div class="search-bar">
-      <input id="explore-search" type="search" placeholder="Search for a food…" autocomplete="off" />
-    </div>
-
-    <p class="muted mb-4" id="explore-status"></p>
-    <div class="food-grid" id="explore-grid">
-      <p class="muted">Loading…</p>
+  <main class="nf-page">
+    <section class="nf-hero" id="nfHero"></section>
+    <div id="nfRows"></div>
+    <div class="empty-state" id="nfEmpty">
+      <h3 data-trans="explore.emptyTitle"></h3>
+      <p data-trans="explore.emptyText"></p>
     </div>
   </main>
-
   <div id="site-footer"></div>
-
   <script src="js/storage.js"></script>
   <script src="js/data.js"></script>
   <script src="js/app.js"></script>

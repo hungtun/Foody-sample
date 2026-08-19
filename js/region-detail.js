@@ -1,82 +1,120 @@
-/**
- * Region Detail — region-detail.html?region=central
- */
+document.addEventListener("DOMContentLoaded", async () => {
+  await loadUI();
+  const copy = applyUI("region");
+  const regionId = getQueryParam("region") || getQueryParam("id") || "north";
+  const fallbackImg = "assets/images/taste/theme.jpg";
 
-async function initRegionDetail() {
   const mount = document.getElementById("region-page");
-  const regionParam = getQueryParam("region") || "north";
-
+  let regions = [];
+  let foods = [];
   try {
-    const [regions, foods] = await Promise.all([loadRegions(), loadFoods()]);
-    const region = findRegionById(regions, regionParam);
-
-    if (!region) {
-      mount.innerHTML = `<div class="empty-state"><p>Region not found.</p><a class="btn btn--primary mt-4" href="index.html">Back home</a></div>`;
-      return;
-    }
-
-    document.title = `${region.name} · Vietnam Food Guide`;
-
-    const featured = foods.filter((f) =>
-      region.featuredFoodIds.includes(f.id) ||
-      regionKeyFromFood(f) === region.shortName.toLowerCase() ||
-      regionKeyFromFood(f) === region.id
-    ).slice(0, 6);
-
-    const ingredients = (region.commonIngredients || region.ingredients || [])
-      .map((item) => `<li>${item}</li>`)
-      .join("");
-
-    const featuredCards = featured.map((f) => createFoodCard(f)).join("");
-
-    mount.innerHTML = `
-      <article>
-        <div class="page-hero">
-          <p class="muted uppercase tracking-wide text-sm mb-2">${region.tagline}</p>
-          <h1>${region.name}</h1>
-          <p>${region.description}</p>
-        </div>
-
-        <div class="grid md:grid-cols-2 gap-8 mb-10">
-          <img
-            src="${region.image}"
-            alt="${region.name}"
-            class="w-full aspect-[4/3] object-cover bg-[#d9d0c0]"
-            onerror="this.src='${placeholderImage(region.name)}'"
-          />
-          <div class="space-y-5">
-            <section>
-              <h2 class="text-xl mb-2">Culinary culture</h2>
-              <p class="muted">${region.culture}</p>
-            </section>
-            <section>
-              <h2 class="text-xl mb-2">Flavor profile</h2>
-              <p class="muted">${region.flavorProfile}</p>
-            </section>
-            <section>
-              <h2 class="text-xl mb-2">Common ingredients</h2>
-              <ul class="list-disc pl-5 muted space-y-1">${ingredients}</ul>
-            </section>
-          </div>
-        </div>
-
-        <section class="mb-10">
-          <h2 class="text-2xl mb-4">Featured dishes</h2>
-          <div class="food-grid">${featuredCards || '<p class="muted">No featured dishes yet.</p>'}</div>
-        </section>
-
-        <div class="text-center py-6">
-          <a class="btn btn--accent" href="explorer.html?region=${region.id}">Explore Now</a>
-        </div>
-      </article>
-    `;
-  } catch (err) {
-    console.error(err);
-    mount.innerHTML = `<div class="empty-state"><p>Could not load region data. Serve this site via a local server (fetch needs HTTP).</p></div>`;
+    [regions, foods] = await Promise.all([loadRegions(), loadFoods()]);
+  } catch (error) {
+    console.error(error);
+    mount.innerHTML = "<p>Could not load region data.</p>";
+    return;
   }
-}
 
-document.addEventListener("DOMContentLoaded", () => {
-  initLayout({ activeId: "explore" });
-  initRegionDetail();
+  const region = findRegionById(regions, regionId) || regions[0];
+  if (!region) {
+    mount.innerHTML = `<div class="empty-state"><p>Region not found.</p><a class="primary-btn" href="index.html">Back home</a></div>`;
+    return;
+  }
+
+  document.title = (copy.pageTitle || "{name} | Taste Vietnam").replace("{name}", region.name);
+
+  const regionFoods = foods.filter((food) => regionKeyFromFood(food) === region.id);
+  const featured = region.featuredFoodIds?.length
+    ? region.featuredFoodIds.map((id) => foods.find((f) => f.id === Number(id))).filter(Boolean)
+    : regionFoods.slice(0, 5);
+
+  const slides = copy.slides?.[region.id] || [fallbackImg];
+  const exploreHref = `explore.html?region=${encodeURIComponent(region.id)}`;
+  const numbers = { north: "01", central: "02", south: "03" };
+
+  mount.innerHTML = `
+    <section class="region-hero">
+      <img src="assets/images/taste/hero.jfif" alt="${region.name}">
+      <div class="region-hero-overlay"></div>
+      <div class="region-hero-text">
+        <p>REGION ${numbers[region.id] || ""}</p>
+        <h1>${region.name}</h1>
+        <span>${region.tagline || ""}</span>
+        <a class="region-hero-cta" href="${exploreHref}">${copy.ctaBtn || ""}</a>
+      </div>
+    </section>
+
+    <section class="region-story">
+      <div class="story-slideshow">
+        <img id="slideImage" src="${slides[0]}" alt="${region.name}">
+      </div>
+      <div class="story-text">
+        <p class="section-label">${region.shortName || ""}</p>
+        <h2>${region.tagline || ""}</h2>
+        <p>${region.description || ""}</p>
+        <p>${region.culture || ""}</p>
+      </div>
+    </section>
+
+    <section class="top-foods section">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">${copy.mustTryLabel || ""}</p>
+          <h2>${copy.mustTryTitle || ""}</h2>
+        </div>
+        <div class="heading-aside">
+          <p class="heading-description">${copy.mustTryDesc || ""}</p>
+          <a class="region-inline-cta" href="${exploreHref}">${copy.ctaBtn || ""}</a>
+        </div>
+      </div>
+      <div class="food-grid">
+        ${featured
+          .map(
+            (food, index) => `
+          <a href="food-detail.html?id=${food.id}" class="food-card ${index === 0 ? "food-large" : ""}">
+            <img src="${resolveFoodImage(food)}" alt="${food.name}" onerror="this.src='${fallbackImg}'">
+            <div class="food-info">
+              <span>#${String(index + 1).padStart(2, "0")}</span>
+              <h3>${food.name}</h3>
+              <p>${food.description || ""}</p>
+            </div>
+          </a>
+        `
+          )
+          .join("")}
+      </div>
+    </section>
+
+    <section class="special section">
+      <p class="section-label">${copy.specialLabel || ""}</p>
+      <h2>${copy.specialTitle || ""}</h2>
+      <div class="special-grid">
+        ${(region.commonIngredients || region.ingredients || [])
+          .slice(0, 3)
+          .map(
+            (item) => `
+          <div>
+            <span>•</span>
+            <h3>${item}</h3>
+            <p>${region.flavorProfile || ""}</p>
+          </div>
+        `
+          )
+          .join("")}
+      </div>
+    </section>
+  `;
+
+  if (slides.length > 1) {
+    let slide = 0;
+    const slideImage = document.getElementById("slideImage");
+    setInterval(() => {
+      slideImage.style.opacity = 0;
+      setTimeout(() => {
+        slide = (slide + 1) % slides.length;
+        slideImage.src = slides[slide];
+        slideImage.style.opacity = 1;
+      }, 230);
+    }, 4000);
+  }
 });

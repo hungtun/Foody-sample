@@ -2,15 +2,27 @@
  * Food Planner — 7-day table (Morning / Lunch / Dinner)
  */
 
-const MEALS = [
-  { key: "morning", label: "Morning" },
-  { key: "lunch", label: "Lunch" },
-  { key: "dinner", label: "Dinner" },
-];
+function tPlanner(key) {
+  return tUI("planner", key);
+}
+
+function getMeals() {
+  return [
+    { key: "morning", label: tPlanner("morning") },
+    { key: "lunch", label: tPlanner("lunch") },
+    { key: "dinner", label: tPlanner("dinner") },
+  ];
+}
 
 let foodsCache = [];
 let activeDate = null;
 let activeMeal = null;
+
+function applyPlannerLanguage() {
+  applyUISection("planner");
+  const search = document.getElementById("modal-search");
+  if (search) search.placeholder = tPlanner("searchPlaceholder");
+}
 
 function toDateKey(date) {
   const y = date.getFullYear();
@@ -31,7 +43,8 @@ function shiftDate(key, days) {
 }
 
 function formatDayLabel(key) {
-  return parseDateKey(key).toLocaleDateString("en-US", {
+  const locale = getCurrentLang() === "vi" ? "vi-VN" : "en-US";
+  return parseDateKey(key).toLocaleDateString(locale, {
     weekday: "short",
     month: "short",
     day: "numeric",
@@ -58,7 +71,7 @@ function cellContent(dateKey, mealKey) {
         <a href="food-detail.html?id=${food.id}">${food.name}</a>
         <div class="planner-actions">
           <button type="button" class="btn btn--ghost btn-clear"
-            data-date="${dateKey}" data-meal="${mealKey}">Remove</button>
+            data-date="${dateKey}" data-meal="${mealKey}">${tPlanner("remove")}</button>
         </div>
       </div>
     `;
@@ -66,7 +79,7 @@ function cellContent(dateKey, mealKey) {
 
   return `
     <button type="button" class="btn btn--primary btn-add"
-      data-date="${dateKey}" data-meal="${mealKey}">+ Add</button>
+      data-date="${dateKey}" data-meal="${mealKey}">${tPlanner("add")}</button>
   `;
 }
 
@@ -79,7 +92,7 @@ function renderWeek() {
       (dateKey) => `
       <tr>
         <th>${formatDayLabel(dateKey)}</th>
-        ${MEALS.map((meal) => `<td>${cellContent(dateKey, meal.key)}</td>`).join("")}
+        ${getMeals().map((meal) => `<td>${cellContent(dateKey, meal.key)}</td>`).join("")}
       </tr>
     `
     )
@@ -121,7 +134,7 @@ function renderModalList(keyword) {
   const results = filterFoodsByKeyword(foodsCache, keyword).slice(0, 20);
 
   if (!results.length) {
-    list.innerHTML = `<p class="muted">No matches.</p>`;
+    list.innerHTML = `<p class="muted">${tPlanner("noMatches")}</p>`;
     return;
   }
 
@@ -145,6 +158,9 @@ function renderModalList(keyword) {
 }
 
 async function initPlanner() {
+  await loadUI();
+  applyPlannerLanguage();
+
   const startInput = document.getElementById("planner-start");
   startInput.value = toDateKey(new Date());
 
