@@ -24,7 +24,7 @@
   "home": {
     "pageTitle": "Taste Vietnam | Khám phá Việt Nam qua ẩm thực",
     "heroSmall": "CHÀO MỪNG ĐẾN VIỆT NAM",
-    "heroTitleHtml": "Khám phá Việt Nam<br>qua <span>hương vị.</span>",
+    "heroTitleHtml": "Khám phá <span class=\"nowrap\">Việt Nam</span><br>qua <span>hương vị.</span>",
     "heroDesc": "Khám phá những món ăn Việt Nam đặc trưng, ẩm thực vùng miền và những câu chuyện phía sau mỗi món ăn.",
     "heroCta": "Khám phá ẩm thực Việt Nam",
     "introLabel": "CÂU CHUYỆN TASTE VIETNAM",
