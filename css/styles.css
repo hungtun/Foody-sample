@@ -1351,7 +1351,6 @@ html[lang="en"] .hero h1 {
 
 /* EXPLORE GLOBAL — no results */
 .empty-state {
-  display: none;
   text-align: center;
   padding: 60px 20px;
   background: #ffffff;
