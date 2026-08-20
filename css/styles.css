@@ -2723,11 +2723,33 @@ a.suggest-btn {
 /* ==========================================================================
    SAVED — saved.html
    ========================================================================== */
-#saved-grid.food-grid {
+.saved-section {
+  margin-top: 28px;
+}
+
+.saved-section:first-of-type {
+  margin-top: 0;
+}
+
+.saved-section-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--green-dark);
+  margin: 0 0 8px;
+}
+
+.saved-section-desc {
+  margin: 0 0 18px;
+  font-size: 14px;
+}
+
+#saved-grid.food-grid,
+#recent-grid.food-grid {
   align-items: stretch;
 }
 
-#saved-grid .food-card {
+#saved-grid .food-card,
+#recent-grid .food-card {
   background: #fff;
   border: none;
   border-radius: 20px;
@@ -2744,6 +2766,10 @@ a.suggest-btn {
 #saved-grid .btn-remove-saved:hover {
   background: #fff1f0;
   border-color: #b33a2b;
+}
+
+#recent-grid .recent-empty {
+  padding: 28px 16px;
 }
 
 /* ==========================================================================

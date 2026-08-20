@@ -136,7 +136,11 @@
     "loading": "Loading…",
     "empty": "No saved foods yet.",
     "explore": "Explore foods",
-    "loadError": "Could not load saved foods."
+    "loadError": "Could not load saved foods.",
+    "savedSectionTitle": "Saved dishes",
+    "recentTitle": "Recently viewed",
+    "recentText": "Dishes you opened recently on this device.",
+    "recentEmpty": "No recently viewed dishes yet. Open a dish to see it here."
   },
   "foodDetail": {
     "siteName": "Taste Vietnam",

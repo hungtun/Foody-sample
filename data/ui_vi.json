@@ -136,7 +136,11 @@
     "loading": "Đang tải…",
     "empty": "Chưa có món nào được lưu.",
     "explore": "Khám phá món ăn",
-    "loadError": "Không tải được danh sách đã lưu."
+    "loadError": "Không tải được danh sách đã lưu.",
+    "savedSectionTitle": "Món đã lưu",
+    "recentTitle": "Đã xem gần đây",
+    "recentText": "Những món bạn vừa mở trên thiết bị này.",
+    "recentEmpty": "Chưa có món nào vừa xem. Mở một món để hiện ở đây."
   },
   "foodDetail": {
     "siteName": "Taste Vietnam",
