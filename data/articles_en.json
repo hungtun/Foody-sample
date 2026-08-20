@@ -147,7 +147,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/sinh-to-ca-rot-cam.webp",
+      "src": "assets/images/articles/sinh-to-ca-rot-cam.webp",
       "caption": ""
     },
     {
@@ -160,7 +160,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/sinh-to-bo-chuoi.webp",
+      "src": "assets/images/articles/sinh-to-bo-chuoi.webp",
       "caption": ""
     },
     {
@@ -173,7 +173,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/sinh-to-dau-sua-chua.jpg",
+      "src": "assets/images/articles/sinh-to-dau-sua-chua.jpg",
       "caption": ""
     },
     {
@@ -186,7 +186,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/sinh-to-kiwi-tao-xanh.jpg",
+      "src": "assets/images/articles/sinh-to-kiwi-tao-xanh.jpg",
       "caption": ""
     },
     {
@@ -199,7 +199,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/sinh-to-ca-chua-mat-ong-chanh.webp",
+      "src": "assets/images/articles/sinh-to-ca-chua-mat-ong-chanh.webp",
       "caption": ""
     },
     {
@@ -212,7 +212,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/sinh-to-bi-do-sua-tuoi.jpg",
+      "src": "assets/images/articles/sinh-to-bi-do-sua-tuoi.jpg",
       "caption": ""
     },
     {
@@ -225,7 +225,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/sinh-to-luu-cu-den.jpg",
+      "src": "assets/images/articles/sinh-to-luu-cu-den.jpg",
       "caption": ""
     },
     {
@@ -238,7 +238,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/sinh-to-rau-xanh.jpg",
+      "src": "assets/images/articles/sinh-to-rau-xanh.jpg",
       "caption": ""
     }
   ]
@@ -275,7 +275,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/pho-ha-noi.webp",
+      "src": "assets/images/articles/pho-ha-noi.webp",
       "caption": ""
     },
     {
@@ -292,7 +292,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/bun-cha-ha-noi.webp",
+      "src": "assets/images/articles/bun-cha-ha-noi.webp",
       "caption": ""
     },
     {
@@ -309,7 +309,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/banh-da-cua-hai-phong.webp",
+      "src": "assets/images/articles/banh-da-cua-hai-phong.webp",
       "caption": ""
     },
     {
@@ -326,7 +326,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/cha-muc-ha-long.webp",
+      "src": "assets/images/articles/cha-muc-ha-long.webp",
       "caption": ""
     },
     {
@@ -343,7 +343,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/pho-chua-lang-son.webp",
+      "src": "assets/images/articles/pho-chua-lang-son.webp",
       "caption": ""
     },
     {
@@ -360,7 +360,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/thang-co-lao-cai.webp",
+      "src": "assets/images/articles/thang-co-lao-cai.webp",
       "caption": ""
     },
     {
@@ -377,7 +377,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/men-men-ha-giang.webp",
+      "src": "assets/images/articles/men-men-ha-giang.webp",
       "caption": ""
     },
     {
@@ -394,7 +394,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/xoi-nep-nuong-dien-bien.webp",
+      "src": "assets/images/articles/xoi-nep-nuong-dien-bien.webp",
       "caption": ""
     },
     {
@@ -411,7 +411,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/vit-quay-7-vi-cao-bang.webp",
+      "src": "assets/images/articles/vit-quay-7-vi-cao-bang.webp",
       "caption": ""
     },
     {
@@ -428,7 +428,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/che-tan-cuong-thai-nguyen.webp",
+      "src": "assets/images/articles/che-tan-cuong-thai-nguyen.webp",
       "caption": ""
     },
     {
@@ -495,7 +495,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/banh-chung.jpg",
+      "src": "assets/images/articles/banh-chung.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -504,11 +504,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Along with fatty pork and banh chung, pickled onions are an indispensable dish during traditional Vietnamese Tet. They are usually pickled only once a year for Tet. Served alongside other dishes, pickled onions help prevent the meal from feeling too rich, especially when paired with oily and fatty foods."
+      "text": "Along with fatty pork and banh chung, pickled onions are an indispensable dish during traditional Vietnamese Tet. They are usually pickled only once a year for Tet. Served alongside other dishes, pickled onions help prevent the meal from feeling too rich, especially when paired with oily and fatty articles."
     },
     {
       "type": "image",
-      "src": "assets/images/foods/dua-hanh.jpg",
+      "src": "assets/images/articles/dua-hanh.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -521,7 +521,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/gio-lua.jpg",
+      "src": "assets/images/articles/gio-lua.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -534,7 +534,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/gio-xao.jpg",
+      "src": "assets/images/articles/gio-xao.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -547,7 +547,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/xoi-gac.jpg",
+      "src": "assets/images/articles/xoi-gac.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -560,7 +560,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/ga-luoc.webp",
+      "src": "assets/images/articles/ga-luoc.webp",
       "caption": "Illustrative image"
     },
     {
@@ -573,7 +573,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/nem-ran.webp",
+      "src": "assets/images/articles/nem-ran.webp",
       "caption": "Illustrative image"
     },
     {
@@ -586,7 +586,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/canh-mang-kho.jpg",
+      "src": "assets/images/articles/canh-mang-kho.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -599,7 +599,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/thit-nau-dong.jpg",
+      "src": "assets/images/articles/thit-nau-dong.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -612,7 +612,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/nem-chua.jpg",
+      "src": "assets/images/articles/nem-chua.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -625,7 +625,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/banh-tet.webp",
+      "src": "assets/images/articles/banh-tet.webp",
       "caption": "Illustrative image"
     },
     {
@@ -638,7 +638,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/dua-mon.jpg",
+      "src": "assets/images/articles/dua-mon.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -651,7 +651,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/tom-chua.jpg",
+      "src": "assets/images/articles/tom-chua.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -664,7 +664,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/cha-bo.png",
+      "src": "assets/images/articles/cha-bo.png",
       "caption": "Illustrative image"
     },
     {
@@ -677,7 +677,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/thit-ngam-mam.jpg",
+      "src": "assets/images/articles/thit-ngam-mam.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -690,7 +690,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/cu-kieu-tom-kho.jpg",
+      "src": "assets/images/articles/cu-kieu-tom-kho.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -703,7 +703,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/thit-kho-nuoc-dua.jpg",
+      "src": "assets/images/articles/thit-kho-nuoc-dua.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -712,11 +712,11 @@
     },
     {
       "type": "paragraph",
-      "text": "One of the most popular foods in Southern Vietnam is Vietnamese sausage, known locally as lap xuong. Every Tet, demand for this sausage rises, and it is a familiar part of the Southern Vietnamese family meal. There are many varieties, including fresh, dried, lean pork, shrimp, and fish sausages. Originally from China, lap xuong has become widely loved in Vietnam. It is made from finely ground lean pork and pork fat mixed with rice wine and sugar, then stuffed into dried pork intestines and naturally fermented. This fermentation process gives the sausage its characteristic slightly sweet flavor."
+      "text": "One of the most popular articles in Southern Vietnam is Vietnamese sausage, known locally as lap xuong. Every Tet, demand for this sausage rises, and it is a familiar part of the Southern Vietnamese family meal. There are many varieties, including fresh, dried, lean pork, shrimp, and fish sausages. Originally from China, lap xuong has become widely loved in Vietnam. It is made from finely ground lean pork and pork fat mixed with rice wine and sugar, then stuffed into dried pork intestines and naturally fermented. This fermentation process gives the sausage its characteristic slightly sweet flavor."
     },
     {
       "type": "image",
-      "src": "assets/images/foods/lap-xuong.jpg",
+      "src": "assets/images/articles/lap-xuong.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -729,7 +729,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/canh-kho-qua-nhoi-thit.jpg",
+      "src": "assets/images/articles/canh-kho-qua-nhoi-thit.jpg",
       "caption": "Illustrative image"
     },
     {
@@ -742,7 +742,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/dua-gia.webp",
+      "src": "assets/images/articles/dua-gia.webp",
       "caption": "Illustrative image"
     }
   ]
@@ -767,11 +767,11 @@
     },
     {
       "type": "paragraph",
-      "text": "In particular, Indians tend to avoid frozen foods because the natural structure of food can change significantly during the freezing process. They prefer cooking with fresh ingredients, which they believe can help prevent certain diseases such as cancer, cardiovascular disease, diabetes, and other degenerative conditions."
+      "text": "In particular, Indians tend to avoid frozen articles because the natural structure of food can change significantly during the freezing process. They prefer cooking with fresh ingredients, which they believe can help prevent certain diseases such as cancer, cardiovascular disease, diabetes, and other degenerative conditions."
     },
     {
       "type": "paragraph",
-      "text": "In addition, deep-fried foods and rich ingredients such as butter and cream are relatively uncommon in Indian cuisine."
+      "text": "In addition, deep-fried articles and rich ingredients such as butter and cream are relatively uncommon in Indian cuisine."
     },
     {
       "type": "image",
@@ -788,7 +788,7 @@
     },
     {
       "type": "paragraph",
-      "text": "So, what is the secret behind Japan's longevity? A balanced approach to eating, combining appropriate calorie intake with satisfying meals, along with nutrient-rich diets, is considered one of the keys to good health. Japanese people eat plenty of vegetables, fish, and foods kept as fresh as possible. They also consume brown rice instead of white rice and rarely use oil or butter, which are high in calories, in their meals."
+      "text": "So, what is the secret behind Japan's longevity? A balanced approach to eating, combining appropriate calorie intake with satisfying meals, along with nutrient-rich diets, is considered one of the keys to good health. Japanese people eat plenty of vegetables, fish, and articles kept as fresh as possible. They also consume brown rice instead of white rice and rarely use oil or butter, which are high in calories, in their meals."
     },
     {
       "type": "image",
@@ -843,7 +843,7 @@
     },
     {
       "type": "paragraph",
-      "text": "From stews to soups, and from the most elaborate dishes to the simplest ones, traditional Greek cuisine combines the freshest and most distinctive ingredients from the land and sea to create nutritious and high-quality meals. It is built around foods that are rich in color and flavor, packed with nutrients, and relatively low in animal fat."
+      "text": "From stews to soups, and from the most elaborate dishes to the simplest ones, traditional Greek cuisine combines the freshest and most distinctive ingredients from the land and sea to create nutritious and high-quality meals. It is built around articles that are rich in color and flavor, packed with nutrients, and relatively low in animal fat."
     },
     {
       "type": "image",
@@ -876,7 +876,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/mi-quang.webp",
+      "src": "assets/images/articles/mi-quang.webp",
       "caption": ""
     },
     {
@@ -893,7 +893,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/pho.webp",
+      "src": "assets/images/articles/pho.webp",
       "caption": ""
     },
     {
@@ -910,7 +910,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/goi-cuon.webp",
+      "src": "assets/images/articles/goi-cuon.webp",
       "caption": ""
     },
     {
@@ -927,7 +927,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/bo-sot-vang.webp",
+      "src": "assets/images/articles/bo-sot-vang.webp",
       "caption": ""
     },
     {
@@ -940,7 +940,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/bun-cha.webp",
+      "src": "assets/images/articles/bun-cha.webp",
       "caption": ""
     },
     {
@@ -953,7 +953,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/cha-gio.webp",
+      "src": "assets/images/articles/cha-gio.webp",
       "caption": ""
     },
     {
@@ -966,7 +966,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/com-tam.webp",
+      "src": "assets/images/articles/com-tam.webp",
       "caption": ""
     },
     {
@@ -979,7 +979,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/bun-bo-hue-2.webp",
+      "src": "assets/images/articles/bun-bo-hue-2.webp",
       "caption": ""
     },
     {
@@ -992,7 +992,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/banh-mi.webp",
+      "src": "assets/images/articles/banh-mi.webp",
       "caption": ""
     },
     {
@@ -1005,7 +1005,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/ca-kho-to.webp",
+      "src": "assets/images/articles/ca-kho-to.webp",
       "caption": ""
     },
     {
@@ -1018,7 +1018,7 @@
     },
     {
       "type": "image",
-      "src": "assets/images/foods/banh-xeo.webp",
+      "src": "assets/images/articles/banh-xeo.webp",
       "caption": ""
     }
   ]
@@ -1047,11 +1047,11 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/com-tam.jpg",
+"src": "assets/images/articles/com-tam.jpg",
 "caption": "Illustrative photo (collected)"
 },
 { "type": "bold-text", "text": "1.2. Bánh Mì" },
-{ "type": "paragraph", "text": "<strong>Saigon bánh mì</strong> is one of the most popular and affordable street foods, familiar to both locals and visitors. In Saigon, you can easily find bánh mì carts and shops of all sizes on almost every street. The bread has a crispy crust, while the filling comes in many varieties, including grilled pork, roasted pork, beef sausage, Vietnamese pork sausage, fish cake, pâté, butter, cucumber, and pickled vegetables…" },
+{ "type": "paragraph", "text": "<strong>Saigon bánh mì</strong> is one of the most popular and affordable street articles, familiar to both locals and visitors. In Saigon, you can easily find bánh mì carts and shops of all sizes on almost every street. The bread has a crispy crust, while the filling comes in many varieties, including grilled pork, roasted pork, beef sausage, Vietnamese pork sausage, fish cake, pâté, butter, cucumber, and pickled vegetables…" },
 { "type": "paragraph", "text": "<strong>Recommended places:</strong>" },
 {
 "type": "list",
@@ -1063,7 +1063,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/banh-mi-2.webp",
+"src": "assets/images/articles/banh-mi-2.webp",
 "caption": "Illustrative photo (collected)"
 },
 { "type": "bold-text", "text": "1.3. Hủ Tiếu (Vietnamese Rice Noodle Soup)" },
@@ -1079,7 +1079,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/hu-tieu-go.webp",
+"src": "assets/images/articles/hu-tieu-go.webp",
 "caption": "Illustrative photo (collected)"
 },
 { "type": "bold-text", "text": "1.4. Snails" },
@@ -1095,7 +1095,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/oc.webp",
+"src": "assets/images/articles/oc.webp",
 "caption": "Illustrative photo (collected)"
 },
 { "type": "bold-text", "text": "1.5. Bún Bò Huế" },
@@ -1111,7 +1111,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/bun-bo.jpg",
+"src": "assets/images/articles/bun-bo.jpg",
 "caption": "Illustrative photo (collected)"
 },
 { "type": "bold-text", "text": "1.6. Vietnamese Savory Crepes (Bánh Xèo)" },
@@ -1127,7 +1127,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/banh-xeo.jpg",
+"src": "assets/images/articles/banh-xeo.jpg",
 "caption": "Illustrative photo (collected)"
 },
 { "type": "bold-text", "text": "1.7. Rice Paper Salad (Bánh Tráng Trộn)" },
@@ -1143,7 +1143,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/banh-trang-tron.webp",
+"src": "assets/images/articles/banh-trang-tron.webp",
 "caption": "Illustrative photo (collected)"
 },
 { "type": "bold-text", "text": "1.8. Beef Offal Stew (Phá Lấu Bò)" },
@@ -1159,7 +1159,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/pha-lau-bo.png",
+"src": "assets/images/articles/pha-lau-bo.png",
 "caption": "Illustrative photo (collected)"
 },
 { "type": "bold-text", "text": "1.9. Phở (Vietnamese Beef Noodle Soup)" },
@@ -1175,7 +1175,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/pho-2.jpg",
+"src": "assets/images/articles/pho-2.jpg",
 "caption": "Illustrative photo (collected)"
 },
 { "type": "bold-text", "text": "1.10. Crab Soup (Súp Cua)" },
@@ -1191,7 +1191,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/sup-cua.jpg",
+"src": "assets/images/articles/sup-cua.jpg",
 "caption": "Illustrative photo (collected)"
 },
 
@@ -1321,7 +1321,7 @@
 { "type": "bold-text", "text": "Bún Bò Huế (Hue Beef Noodle Soup)" },
 {
   "type": "image",
-  "src": "assets/images/foods/bun-bo-hue.webp",
+  "src": "assets/images/articles/bun-bo-hue.webp",
   "caption": "Collected photo"
 },
 { "type": "paragraph", "text": "The first dish you should try when visiting Hue is bún bò Huế. This dish carries the distinctive flavors of Hue, so the name of the city has become an inseparable part of the dish's name." },

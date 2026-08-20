@@ -108,7 +108,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/sinh-to-ca-rot-cam.webp",
+"src": "assets/images/articles/sinh-to-ca-rot-cam.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "2/ Sinh tố bơ với chuối" },
@@ -118,7 +118,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/sinh-to-bo-chuoi.webp",
+"src": "assets/images/articles/sinh-to-bo-chuoi.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "3/ Sinh tố dâu tây với sữa chua" },
@@ -128,7 +128,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/sinh-to-dau-sua-chua.jpg",
+"src": "assets/images/articles/sinh-to-dau-sua-chua.jpg",
 "caption": ""
 },
 { "type": "bold-text", "text": "4/ Sinh tố kiwi với táo xanh" },
@@ -138,7 +138,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/sinh-to-kiwi-tao-xanh.jpg",
+"src": "assets/images/articles/sinh-to-kiwi-tao-xanh.jpg",
 "caption": ""
 },
 { "type": "bold-text", "text": "5/ Sinh tố cà chua, mật ong và chanh" },
@@ -148,7 +148,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/sinh-to-ca-chua-mat-ong-chanh.webp",
+"src": "assets/images/articles/sinh-to-ca-chua-mat-ong-chanh.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "6/ Sinh tố bí đỏ với sữa tươi" },
@@ -158,7 +158,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/sinh-to-bi-do-sua-tuoi.jpg",
+"src": "assets/images/articles/sinh-to-bi-do-sua-tuoi.jpg",
 "caption": ""
 },
 { "type": "bold-text", "text": "7/ Sinh tố lựu với củ dền" },
@@ -168,7 +168,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/sinh-to-luu-cu-den.jpg",
+"src": "assets/images/articles/sinh-to-luu-cu-den.jpg",
 "caption": ""
 },
 { "type": "bold-text", "text": "8/ Sinh tố rau xanh" },
@@ -178,7 +178,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/sinh-to-rau-xanh.jpg",
+"src": "assets/images/articles/sinh-to-rau-xanh.jpg",
 "caption": ""
 }
     ]
@@ -200,7 +200,7 @@
 { "type": "paragraph", "text": "<strong>Giá tham khảo:</strong> 40.000 - 70.000 VNĐ/bát." },
 {
 "type": "image",
-"src": "assets/images/foods/pho-ha-noi.webp",
+"src": "assets/images/articles/pho-ha-noi.webp",
 "caption": ""
 },
 { "type": "subheading", "text": "2. Bún Chả Hà Nội" },
@@ -209,7 +209,7 @@
 
 {
 "type": "image",
-"src": "assets/images/foods/bun-cha-ha-noi.webp",
+"src": "assets/images/articles/bun-cha-ha-noi.webp",
 "caption": ""
 },
 { "type": "subheading", "text": "3. Bánh Đa Cua Hải Phòng" },
@@ -218,7 +218,7 @@
 
 {
 "type": "image",
-"src": "assets/images/foods/banh-da-cua-hai-phong.webp",
+"src": "assets/images/articles/banh-da-cua-hai-phong.webp",
 "caption": ""
 },
 { "type": "subheading", "text": "4. Chả Mực Hạ Long" },
@@ -227,7 +227,7 @@
 
 {
 "type": "image",
-"src": "assets/images/foods/cha-muc-ha-long.webp",
+"src": "assets/images/articles/cha-muc-ha-long.webp",
 "caption": ""
 },
 { "type": "subheading", "text": "5. Phở Chua Lạng Sơn" },
@@ -236,7 +236,7 @@
 
 {
 "type": "image",
-"src": "assets/images/foods/pho-chua-lang-son.webp",
+"src": "assets/images/articles/pho-chua-lang-son.webp",
 "caption": ""
 },
 { "type": "subheading", "text": "6. Thắng Cố Lào Cai" },
@@ -245,7 +245,7 @@
 
 {
 "type": "image",
-"src": "assets/images/foods/thang-co-lao-cai.webp",
+"src": "assets/images/articles/thang-co-lao-cai.webp",
 "caption": ""
 },
 { "type": "subheading", "text": "7. Mèn Mén Hà Giang" },
@@ -254,7 +254,7 @@
 
 {
 "type": "image",
-"src": "assets/images/foods/men-men-ha-giang.webp",
+"src": "assets/images/articles/men-men-ha-giang.webp",
 "caption": ""
 },
 { "type": "subheading", "text": "8. Xôi Nếp Nương Điện Biên" },
@@ -263,7 +263,7 @@
 
 {
 "type": "image",
-"src": "assets/images/foods/xoi-nep-nuong-dien-bien.webp",
+"src": "assets/images/articles/xoi-nep-nuong-dien-bien.webp",
 "caption": ""
 },
 { "type": "subheading", "text": "9. Vịt Quay 7 Vị Cao Bằng" },
@@ -272,7 +272,7 @@
 
 {
 "type": "image",
-"src": "assets/images/foods/vit-quay-7-vi-cao-bang.webp",
+"src": "assets/images/articles/vit-quay-7-vi-cao-bang.webp",
 "caption": ""
 },
 
@@ -281,7 +281,7 @@
 { "type": "paragraph", "text": "<strong>Giá tham khảo:</strong> 200.000 - 800.000 VNĐ/kg." },
 {
 "type": "image",
-"src": "assets/images/foods/che-tan-cuong-thai-nguyen.webp",
+"src": "assets/images/articles/che-tan-cuong-thai-nguyen.webp",
 "caption": ""
 },
 { "type": "paragraph", "text": "Ẩm thực Việt Nam là con đường ngắn nhất đưa ta về \"nhà\" - nơi có sự dung hoà giữa đa tầng hương vị ngọt, chua, cay, đắng,... Đặc sản Việt Nam mang trong mình những hương vị đặc trưng, là cầu nối giúp ta hiểu rõ hơn về văn hóa ẩm thực và nếp sống của dân tộc qua từng thế hệ. Dù bạn chưa có dịp khám phá các địa điểm du lịch nổi tiếng khắp cả nước, hãy dừng chân tại Sài Gòn - nơi tập trung nhiều món ngon từ cả ba miền đất nước." }
@@ -329,140 +329,140 @@
 { "type": "paragraph", "text": "Dân gian xưa có câu: “Thịt mỡ dưa hành, câu đối đỏ/Cây nêu, tràng pháo, bánh chưng xanh”. Bánh chưng được coi là linh hồn của ngày Tết và là một loại bánh có lịch sử rất lâu đời trong nền văn hóa ẩm thực của Việt Nam. Bánh được làm từ loại gạo nếp ngon, thịt lợn, đậu xanh và được gói vuông bằng lá dong sau đó được đem luộc trong khảng 8 – 10 giờ cho đến khi chín. Bánh dẻo, rất thơm mùi thơm của gạo nếp và có màu xanh của lá dong." },
 {
 "type": "image",
-"src": "assets/images/foods/banh-chung.jpg",
+"src": "assets/images/articles/banh-chung.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "2. Dưa hành" },
 { "type": "paragraph", "text": "Cùng với thịt mỡ và bánh chưng, dưa hành là một món ăn không thể thiếu trong ngày tết cổ truyền của người Việt. Dưa hành thường được muối duy nhất một lần một năm vào dịp Tết. Dưa hành dùng ăn kèm với các món ăn khác sẽ không bị ngấy, đặc biệt là đồ ăn nhiều dầu mỡ." },
 {
 "type": "image",
-"src": "assets/images/foods/dua-hanh.jpg",
+"src": "assets/images/articles/dua-hanh.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "3. Giò lụa" },
 { "type": "paragraph", "text": "Giò lụa, giò chả hay chả lụa là tên gọi của món ăn được làm từ hai nguyên liệu cơ bản là thịt nạc thăn lợn giã nhuyễn kết hợp với nước mắm ngon, gói trong lá chuối và luộc chín. Giò lụa được xem là một món ăn vừa phổ thông vừa sang trọng. Đây cũng là món ăn quen thuộc của người Việt trong năm chứ không chỉ ngày Tết. Khi bày cỗ giò thường được thái theo khoanh, chia thành miếng gọn gàng, trông đẹp mắt và dễ gắp." },
 {
 "type": "image",
-"src": "assets/images/foods/gio-lua.jpg",
+"src": "assets/images/articles/gio-lua.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "4. Giò xào" },
 { "type": "paragraph", "text": "Giò xào là món ăn truyền thống với thành phần chính là thịt thủ (phần thịt ở đầu con lợn), xào chín cùng một số nguyên liệu khác như mộc nhĩ, hạt tiêu, muối… rồi gói và nén chặt. Bắt nguồn từ miền Bắc Việt Nam và hiện nay đã phổ biến khắp nước." },
 {
 "type": "image",
-"src": "assets/images/foods/gio-xao.jpg",
+"src": "assets/images/articles/gio-xao.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "5. Xôi gấc" },
 { "type": "paragraph", "text": "Theo quan niệm của người xưa cho biết thì màu đỏ là màu của may mắn, màu của hạnh phúc lứa đôi. Vì vậy mà trong những ngày rằm, ngày lễ, đặc biệt là ngày Tết thì nhất định phải có 1 đĩa xôi gấc. Xôi gấc được nấu từ gạo nếp ngon và được trộn với gấc tươi rồi cho vào nồi hấp. Sau khi được đun chín thì xôi sẽ có màu đỏ tươi rất đẹp và hấp dẫn." },
 {
 "type": "image",
-"src": "assets/images/foods/xoi-gac.jpg",
+"src": "assets/images/articles/xoi-gac.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "6. Gà luộc" },
 { "type": "paragraph", "text": "Gà luộc là món ăn không thể thiếu trong mâm cỗ ngày Tết. Từ trước đến nay thì mọi người luôn tin tưởng rằng gà mang đến niềm may mắn, sự khởi đầu thuận lợi cho một năm mới. Người ta lựa chọn những con tươi ngon, làm sạch rồi sau đó cho vào nồi luộc cùng với một số gia vị như hoa tiêu, hoa hồi, gừng. Gà luộc chín tới sẽ có màu vàng, không bị rách da và được dùng chấm kèm với muối chanh ớt. Vị ngọt thơm của miếng thịt gà ăn kèm với lá chanh, chấm muối chanh ớt sẽ tạo nên một hương vị riêng rất khó quên." },
 {
 "type": "image",
-"src": "assets/images/foods/ga-luoc.webp",
+"src": "assets/images/articles/ga-luoc.webp",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "7. Nem rán" },
 { "type": "paragraph", "text": "Nem rán được xem là món ăn bình dân nhưng cầu kì nhất bởi món ăn này cần nhiều nguyên liệu nhưng không bắt buộc theo thực đơn nhất định. Nem rán bên ngoài màu vàng óng, bên trong thì chứa đầy thịt, mộc nhĩ, rau củ và giá. Món ăn này được rất nhiều người ưa thích, còn được coi là “quốc hồn quốc túy” của người Việt. Ngày nay, mặc dù có nhiều loại nem như: nem rán hải sản, nem rán chay, chả giò... nhưng món nem rán truyền thống vẫn được ưa chuộng hơn cả." },
 {
 "type": "image",
-"src": "assets/images/foods/nem-ran.webp",
+"src": "assets/images/articles/nem-ran.webp",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "8. Canh măng khô" },
 { "type": "paragraph", "text": "Ngày Tết thường không thể thiếu bát canh măng. Có rất nhiều loại măng khác nhau như măng xé, măng lá… thế nhưng măng lưỡi lợn là lựa chọn thường thấy nhất trong mâm cỗ ngày Tết. Nồi canh măng nấu cùng chân giò là một món ăn không thể thiếu của người dân miền Bắc và của người Hà Nội mỗi dịp Tết đến xuân về. Đó cũng là một nét văn hóa thể hiện truyền thống của người Việt từ xa xưa với thói quen ăn những món có nguồn gốc từ thiên nhiên như măng, khoai… Thiếu đi món ăn này, mâm cơm không còn mang nét đặc trưng của ngày Tết nữa." },
 {
 "type": "image",
-"src": "assets/images/foods/canh-mang-kho.jpg",
+"src": "assets/images/articles/canh-mang-kho.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "9. Thịt nấu đông" },
 { "type": "paragraph", "text": "Thịt đông là món ăn truyền thống quen thuộc đối với người dân miền Bắc vào mỗi dịp đầu năm. Người dân nơi đây thường sử dụng thịt chân giò, tai heo, thịt gà, thịt ngan… để nấu thịt đông. Thịt đông là món riêng có của mùa xuân miền Bắc. Trong tiết trời lạnh thịt đông trở nên ngon hơn. Món này được làm từ thịt lợn, đôi khi được sử dụng thêm cả gà và một mảng bì lợn. Tất cả sau đó đều được ninh nhừ. Sau đó để nguội qua đêm sẽ có một nồi thịt đông ngon lành." },
 {
 "type": "image",
-"src": "assets/images/foods/thit-nau-dong.jpg",
+"src": "assets/images/articles/thit-nau-dong.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "10. Nem chua" },
 { "type": "paragraph", "text": "Từ lâu người dân Thanh Hóa đã coi nem chua là món quà ý nghĩa mà tiện lợi, đem đi biếu tặng mỗi dịp tết đến xuân về để thể hiện tình cảm chân thành nhất. Có người giải thích nem chua để thờ cúng tổ tiên, cầu may mắn, sung túc do trước đây nó được làm để tiến vua trong dịp Tết. Nếu có dịp tới chơi Tết tại miền Trung thì bạn sẽ được người dân ở đây đãi bạn nhâm nhi với vài chung rượu và “mồi” là những chiếc nem nướng. Món ăn đặc sản này được làm từ thịt heo, sau khi đã được tẩm ướp gia vị, thịt được gói lại trong lá ổi hay lá chùm ruột để trong vài ngày có vị chua thanh, giòn giòn, cay cay." },
 {
 "type": "image",
-"src": "assets/images/foods/nem-chua.jpg",
+"src": "assets/images/articles/nem-chua.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "11. Bánh tét" },
 { "type": "paragraph", "text": "Bánh tét có ý nghĩa là sự hội tụ của đất và trời, một trong những món ăn truyền thống không thể thiếu trong mâm cỗ Tết của người miền Trung. Nếu miền Bắc có bánh chưng được gói bằng lá dong thì bánh tét miền Trung và miền Nam gói bằng lá chuối. Mặc dù giống nhau về nguyên liệu nhưng bánh tét được gói lại thành từng đòn hình trụ. Bánh tét thường chặt bánh và ăn ngon hơn bánh chưng vì được lăn, ép sau khi luộc dễ hơn bánh chưng." },
 {
 "type": "image",
-"src": "assets/images/foods/banh-tet.webp",
+"src": "assets/images/articles/banh-tet.webp",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "12. Dưa món" },
 { "type": "paragraph", "text": "Nếu như miền Bắc trong ngày Tết có dưa hành thì miền Trung lại có dưa món. Được kết hợp từ nhiều nguyên liệu khác nhau như củ cải, cà rốt, dưa leo, đu đủ, củ kiệu,… đã tạo nên món ăn ngon không thể cưỡng nổi. Mặc dù nghe qua có vẻ đơn giản nhưng để có thể làm được dưa món đầy sắc và vị thì tốn không ít thời gian và sự tỉ mỉ. Lát bánh tét dẻo mềm ăn kèm cùng với dưa món giòn giòn, chua chua đem đến cho người ăn cảm giác lạ miệng rất khó quên, một hương vị rất riêng trong những ngày Tết." },
 {
 "type": "image",
-"src": "assets/images/foods/dua-mon.jpg",
+"src": "assets/images/articles/dua-mon.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "13. Tôm chua" },
 { "type": "paragraph", "text": "Một món ăn nữa không thể thiếu trong mâm cỗ ngày Tết của người miền Trung đó chính là tôm chua, đặc sản của Huế. Vị ngọt bùi của tôm, béo ngậy của thịt, vị cay và thơm của riềng, tỏi ớt, vị chua của khế, chát của vả, hương của các loại rau thơm,… Tất cả tạo nên một “bản hòa tấu hương vị” hấp dẫn khiến bất kì ăn qua một lần sẽ phải nhớ mãi." },
 {
 "type": "image",
-"src": "assets/images/foods/tom-chua.jpg",
+"src": "assets/images/articles/tom-chua.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "14. Chả bò" },
 { "type": "paragraph", "text": "Trong bàn tiệc thiết đãi khách trong những ngày đầu xuân của người miền Trung thường có khoanh chả bò màu đỏ hồng. Với đủ vị mặn, ngọt, giòn, dai, cay quyện với mùi thơm nồng đặc trưng của tiêu đen đã khiến cho món này không thể thiếu trong các dịp lễ Tết." },
 {
 "type": "image",
-"src": "assets/images/foods/cha-bo.png",
+"src": "assets/images/articles/cha-bo.png",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "15. Thịt ngâm mắm" },
 { "type": "paragraph", "text": "Mỗi dịp Tết đến Xuân về thì món thịt ngâm mắm là cách muối thịt phổ biến nhất ở nhiều tỉnh miền Trung. Nguyên liệu có thể là thịt heo hoặc thịt bò đều được, sơ chế xong được ngâm vào nước mắm đường đã pha nấu theo một tỉ lệ nhất định. Món thịt này ăn có vị mặn, ngọt và thường ăn kèm với dưa món, củ kiệu chua ngọt và rau sống, rau thơm." },
 {
 "type": "image",
-"src": "assets/images/foods/thit-ngam-mam.jpg",
+"src": "assets/images/articles/thit-ngam-mam.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "16. Củ kiệu tôm khô" },
 { "type": "paragraph", "text": "Nếu mâm cơm truyền thống ngày Tết của người miền Bắc luôn có dưa hành thì người phương Nam lại chẳng thể thiếu hũ củ kiệu hay đĩa tôm khô trộn củ kiệu chua chua ngọt ngọt. Điều đặc biệt ở miền Nam khác hoàn toàn với miền Trung đó chính là củ kiệu không ăn cùng với bánh tét mà thường ăn kèm tôm khô thành một món riêng." },
 {
 "type": "image",
-"src": "assets/images/foods/cu-kieu-tom-kho.jpg",
+"src": "assets/images/articles/cu-kieu-tom-kho.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "17. Thịt kho nước dừa" },
 { "type": "paragraph", "text": "Trong vô số các món ăn ngon tại Sài Gòn thì món ăn Tết truyền thống nổi tiếng nhất có lẽ là thịt kho nước dừa. Hay còn gọi với cái tên khác là thịt kho riệu, thịt kho hột vịt. Những ngày giáp Tết, bên cạnh công việc nấu bánh tét thì mọi người hay chuẩn bị một nồi thị kho nước dừa. Thịt kho hột vịt trông rất hấp dẫn, dễ ăn và rất ngon miệng. Nếu bạn muốn thưởng thức món này mà không cảm thấy ngấy thì bạn có thể ăn món này thường ăn kèm dưa giá." },
 {
 "type": "image",
-"src": "assets/images/foods/thit-kho-nuoc-dua.jpg",
+"src": "assets/images/articles/thit-kho-nuoc-dua.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "18. Lạp xưởng" },
 { "type": "paragraph", "text": "Một trong những món phổ biến ở miền Nam mà bất kì ai cũng biết đến đó là món lạp xưởng. Cứ mỗi khi Tết đến Xuân về, nhu cầu tìm mua lạp xưởng không thể thiếu trong mâm cơm người dân Nam bộ. Với rất nhiều loại lạp xưởng từ tươi, khô, nạc, tôm, cá… Lạp xưởng là một món ăn có nguồn gốc từ vùng đất Trung Hoa và được nhiều người Việt ta yêu thích. Chúng được làm từ thịt nạc và thịt mỡ lợn xay nhuyễn trộn với rượu, đường rồi nhồi vào ruột lợn khô để làm chín bằng cách lên men tự nhiên. Chính vì vậy, mà lạp xưởng có vị hơi ngọt là thế." },
 {
 "type": "image",
-"src": "assets/images/foods/lap-xuong.jpg",
+"src": "assets/images/articles/lap-xuong.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "19. Canh khổ qua nhồi thịt" },
 { "type": "paragraph", "text": "Với mỗi gia đình miền Nam thì món canh khổ qua nhồi thịt là một món ăn thường ngày quen thuộc. Và nó cũng được sử dụng trong những ngày Tết với ý nghĩa đẩy lùi những khó khăn đi qua. Không những thế, đây cũng là món ăn bổ dưỡng giải nhiệt cơ thể trong những ngày Tết." },
 {
 "type": "image",
-"src": "assets/images/foods/canh-kho-qua-nhoi-thit.jpg",
+"src": "assets/images/articles/canh-kho-qua-nhoi-thit.jpg",
 "caption": "Ảnh minh họa"
 },
 { "type": "bold-text", "text": "20. Dưa giá" },
 { "type": "paragraph", "text": "Với đặc tính mát, vị giòn ngon nên món dưa giá được rất nhiều người lựa chọn để giải nhiệt trong những ngày Tết. Dưa giá ăn cùng với cơm, cuốn bánh tráng, tuy nhiên thích hợp nhất vẫn là ăn kèm thịt kho hột vịt vì tác dụng giải ngấy rất hiệu nghiệm trong ngày Tết. Thành phần chủ yếu tạo nên món dưa giá bao gồm giá, hẹ, cà rốt, rất bổ dưỡng cho cơ thể." },
 {
 "type": "image",
-"src": "assets/images/foods/dua-gia.webp",
+"src": "assets/images/articles/dua-gia.webp",
 "caption": "Ảnh minh họa"
 }
 ]
@@ -536,7 +536,7 @@
 { "type": "paragraph", "text": "Món ăn này được phục vụ từ quán vỉa hè đến nhà hàng sang trọng, chiếm được cảm tình của nhiều thực khách." },
 {
 "type": "image",
-"src": "assets/images/foods/mi-quang.webp",
+"src": "assets/images/articles/mi-quang.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "2. Phở" },
@@ -544,7 +544,7 @@
 { "type": "paragraph", "text": "Vào tháng 9/2007, món ăn này của người Việt đã chính thức được đưa vào từ điển tiếng Anh giản lược Oxford với tên gọi thân thương “Pho”." },
 {
 "type": "image",
-"src": "assets/images/foods/pho.webp",
+"src": "assets/images/articles/pho.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "3. Gỏi cuốn" },
@@ -552,7 +552,7 @@
 { "type": "paragraph", "text": "Nhưng khi kết hợp với nước sốt đậu phộng ngon “thần sầu” thì bánh đa sẽ mềm, dễ cắn và hương vị trở nên hoàn hảo hơn rất nhiều. Đặc biệt, với mức giá chỉ từ 5000-10.000 đồng cho 1 chiếc cuốn, mọi người ai cũng có thể thưởng thức món ăn này." },
 {
 "type": "image",
-"src": "assets/images/foods/goi-cuon.webp",
+"src": "assets/images/articles/goi-cuon.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "4. Bò sốt vang" },
@@ -560,56 +560,56 @@
 { "type": "paragraph", "text": "Cách phổ biến để ăn món này là xé nhỏ bánh mì rồi chấm với nước sốt đậm đà của món ăn." },
 {
 "type": "image",
-"src": "assets/images/foods/bo-sot-vang.webp",
+"src": "assets/images/articles/bo-sot-vang.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "5. Bún chả" },
 { "type": "paragraph", "text": "Bún chả là món ngon nổi tiếng của thủ đô Hà Nội. Thành phần chính là bún, chả nướng, nước mắm pha và các loại rau thơm. Chính vì sự đơn giản, không hề cầu kì này mà món ăn lại ngon đặc biệt và được nhiều du khách nước ngoài yêu thích." },
 {
 "type": "image",
-"src": "assets/images/foods/bun-cha.webp",
+"src": "assets/images/articles/bun-cha.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "6. Nem rán/ Chả giò" },
 { "type": "paragraph", "text": "Cũng được làm từ chiếc bánh tráng, cuốn bên trong là thịt lợn băm, rau và trứng, sau khi rán vàng ươm sẽ tạo nên thành phẩm vô cùng chất lượng. Nem rán hay còn được gọi là chả giò vô cùng nổi tiếng ở Việt Nam và có bán ở nhiều nhà hàng trên thế giới." },
 {
 "type": "image",
-"src": "assets/images/foods/cha-gio.webp",
+"src": "assets/images/articles/cha-gio.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "7. Cơm tấm" },
 { "type": "paragraph", "text": "Được nấu từ những hạt gạo vỡ, cơm tấm trở thành món ăn đáng thử khi du khách ghé thăm Sài Gòn. Đây là món ăn được hàng triệu người lựa chọn bởi nó đầy đủ chất dinh dưỡng với thịt và rau xanh." },
 {
 "type": "image",
-"src": "assets/images/foods/com-tam.webp",
+"src": "assets/images/articles/com-tam.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "8. Bún bò Huế" },
 { "type": "paragraph", "text": "Trong vô vàn món ăn ngon ở Huế, bún bò đã trở thành món ăn được nhiều thực khách yêu thích. Trong một bát bún có đủ cả 4 vị chua, cay, mặn, ngọt. Nước dùng của bún được ninh bằng xương bò, sả và nước mắm nêm với công thức gia truyền. Ớt được thêm vào bún nhiều để tạo vị cay vì người xứ Huế ăn cay rất tốt." },
 {
 "type": "image",
-"src": "assets/images/foods/bun-bo-hue-2.webp",
+"src": "assets/images/articles/bun-bo-hue-2.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "9. Bánh mì" },
 { "type": "paragraph", "text": "Món ăn đường phố này đã xuất hiện rất nhiều trên bản đồ ẩm thực thế giới khiến bất cứ du khách nào ghé thăm Việt Nam đều không thể bỏ lỡ. Hàng triệu ổ bánh mì được nướng mỗi ngày và được người dân dùng chủ yếu trong bữa sáng. Món ăn này vừa rẻ vừa ngon, là một khởi đầu tuyệt vời cho ngày mới." },
 {
 "type": "image",
-"src": "assets/images/foods/banh-mi.webp",
+"src": "assets/images/articles/banh-mi.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "10. Cá kho tộ" },
 { "type": "paragraph", "text": "Thật tuyệt vời khi những khúc cá vàng ươm đẹp mắt lại được kho trong chiếc nồi đất giản dị. Với công thức ướp thịt và kho qua nhiều lửa, món ăn ăn cùng với cơm trắng này được phục vụ ở rất nhiều nhà hàng khiến du khách phải sững sờ vì cách chế biến tạo nên độ mềm thơm và ngọt thịt của cá." },
 {
 "type": "image",
-"src": "assets/images/foods/ca-kho-to.webp",
+"src": "assets/images/articles/ca-kho-to.webp",
 "caption": ""
 },
 { "type": "bold-text", "text": "11. Bánh xèo" },
 { "type": "paragraph", "text": "Nhiều du khách nhầm tưởng rằng vỏ ngoài của bánh xèo được làm bằng trứng. Thực chất, nó được làm từ bột gạo và nghệ. Cùng với nhân tôm thịt, cuốn thêm xà lách và rau củ ăn cùng, chấm vào bát nước mắm chua ngọt và thưởng thức, cảm giác ngon “bùng nổ” sẽ diễn ra ngay trong miệng của bạn." },
 {
 "type": "image",
-"src": "assets/images/foods/banh-xeo.webp",
+"src": "assets/images/articles/banh-xeo.webp",
 "caption": ""
 }
 ]
@@ -638,7 +638,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/com-tam.jpg",
+"src": "assets/images/articles/com-tam.jpg",
 "caption": "Ảnh minh họa (sưu tầm)"
 },
 { "type": "bold-text", "text": "1.2. Bánh mì" },
@@ -654,7 +654,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/banh-mi-2.webp",
+"src": "assets/images/articles/banh-mi-2.webp",
 "caption": "Ảnh minh họa (sưu tầm)"
 },
 { "type": "bold-text", "text": "1.3. Hủ tiếu" },
@@ -670,7 +670,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/hu-tieu-go.webp",
+"src": "assets/images/articles/hu-tieu-go.webp",
 "caption": "Ảnh minh họa (sưu tầm)"
 },
 { "type": "bold-text", "text": "1.4. Ốc" },
@@ -686,7 +686,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/oc.webp",
+"src": "assets/images/articles/oc.webp",
 "caption": "Ảnh minh họa (sưu tầm)"
 },
 { "type": "bold-text", "text": "1.5. Bún bò" },
@@ -702,7 +702,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/bun-bo.jpg",
+"src": "assets/images/articles/bun-bo.jpg",
 "caption": "Ảnh minh họa (sưu tầm)"
 },
 { "type": "bold-text", "text": "1.6. Bánh xèo" },
@@ -718,7 +718,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/banh-xeo.jpg",
+"src": "assets/images/articles/banh-xeo.jpg",
 "caption": "Ảnh minh họa (sưu tầm)"
 },
 { "type": "bold-text", "text": "1.7. Bánh tráng trộn" },
@@ -734,7 +734,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/banh-trang-tron.webp",
+"src": "assets/images/articles/banh-trang-tron.webp",
 "caption": "Ảnh minh họa (sưu tầm)"
 },
 { "type": "bold-text", "text": "1.8. Phá lấu bò" },
@@ -750,7 +750,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/pha-lau-bo.png",
+"src": "assets/images/articles/pha-lau-bo.png",
 "caption": "Ảnh minh họa (sưu tầm)"
 },
 { "type": "bold-text", "text": "1.9. Phở" },
@@ -766,7 +766,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/pho-2.jpg",
+"src": "assets/images/articles/pho-2.jpg",
 "caption": "Ảnh minh họa (sưu tầm)"
 },
 { "type": "bold-text", "text": "1.10. Súp cua" },
@@ -782,7 +782,7 @@
 },
 {
 "type": "image",
-"src": "assets/images/foods/sup-cua.jpg",
+"src": "assets/images/articles/sup-cua.jpg",
 "caption": "Ảnh minh họa (sưu tầm)"
 },
 
@@ -914,7 +914,7 @@
     { "type": "bold-text", "text": "Bún Bò Huế" },
     {
 "type": "image",
-"src": "assets/images/foods/bun-bo-hue.webp",
+"src": "assets/images/articles/bun-bo-hue.webp",
 "caption": "Ảnh sưu tầm"
 },
 { "type": "paragraph", "text": "Món đầu tiên khi đến Huế phải kể tới món bún bò. Món ăn mang nét đặc trưng hương vị của Huế nên tên địa danh này được gắn liền với món ăn như một danh từ riêng của chính món ăn đó." },
